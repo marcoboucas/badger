@@ -1,0 +1,30 @@
+.container {
+    height: 52px;
+    width: 58px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tooltip {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.tooltip-title {
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.tooltip-content {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "name": "ROOT"
+    },
+    {
+      "path": "../common",
+      "name": "@badger/common"
+    },
+    {
+      "path": "../badger-back",
+      "name": "backend"
+    },
+    {
+      "path": "../badger-front",
+      "name": "frontend"
+    }
+  ]
+}

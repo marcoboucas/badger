@@ -13,8 +13,10 @@ logs
 results
 tmp
 
+
 # Build
 public/css/main.css
+dist
 
 # Coverage reports
 coverage

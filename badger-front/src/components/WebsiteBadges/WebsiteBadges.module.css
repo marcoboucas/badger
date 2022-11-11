@@ -1,0 +1,12 @@
+.title {
+    font-size: 1.5em;
+    text-align: left;
+    color: red;
+}
+.badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+}
