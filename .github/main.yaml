@@ -1,0 +1,39 @@
+name: Build & deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Install NPM packages
+        run: |
+          (cd ./common && npm ci)
+          (cd ./badger-front && npm ci)
+
+      - name: Build project
+        run: |
+          (cd ./common && npm run build)
+          (cd ./badger-front && npm run build)
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./badger-front/build
