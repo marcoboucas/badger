@@ -1,8 +1,9 @@
 import { Badge } from "@badger/common";
 import styled from "@emotion/styled";
+import { Badge as BadgeComponent } from "@mui/material";
 import Tooltip, { tooltipClasses, TooltipProps } from "@mui/material/Tooltip";
+import clsx from "clsx";
 import "./BadgeCard.css";
-
 interface BadgeCardProps {
   badge: Badge;
 }
@@ -25,7 +26,7 @@ function BadgeCard(props: BadgeCardProps) {
       title={
         <div className="tooltip">
           <p color="inherit" className="tooltip-title">
-            {badge.name}
+            {badge.name} ({badge.weight})
           </p>
           <p color="inherit" className="tooltip-content">
             {badge.description}
@@ -34,7 +35,20 @@ function BadgeCard(props: BadgeCardProps) {
       }
     >
       <div className="container">
-        <img className="image" src={badge.image} alt={badge.name} />
+        <BadgeComponent
+          badgeContent={badge.weight}
+          color={badge.acquired ? "success" : "error"}
+          max={99999}
+        >
+          <img
+            className={clsx(
+              "image",
+              badge.acquired ? "image-acquired" : "image-available"
+            )}
+            src={badge.image}
+            alt={badge.name}
+          />
+        </BadgeComponent>
       </div>
     </CustomTooltip>
   );

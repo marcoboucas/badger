@@ -1,5 +1,10 @@
-import { CodingameConfig, CodingameConnector } from './connectors'
+import {
+  CodingameConfig,
+  CodingameConnector,
+  GarminConfig,
+  GarminConnector,
+} from './connectors';
 
-export type AllConfigurationsType = CodingameConfig
+export type AllConfigurationsType = CodingameConfig | GarminConfig;
 
-export type AllConnectorsType = CodingameConnector
+export type AllConnectorsType = CodingameConnector | GarminConnector;

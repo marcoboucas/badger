@@ -1,1 +1,1 @@
-export type ConnectorType = 'codingame' | 'duolingo';
+export type ConnectorType = "codingame" | "duolingo" | "garmin";

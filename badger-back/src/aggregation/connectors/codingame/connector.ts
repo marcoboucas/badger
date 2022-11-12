@@ -40,7 +40,7 @@ export class CodingameConnector implements Connector {
         description: badge.description,
         image: `https://static.codingame.com/servlet/fileservlet?id=${badge.imageBinaryId}`,
         isSquare: true,
-        weight: badge.weight,
+        weight: Math.floor(badge.weight / 100), // TOO BIG
       };
       if (badge.progress > 0) {
         return {
