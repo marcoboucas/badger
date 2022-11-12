@@ -1,5 +1,1825 @@
 [
   {
+    "name": "Garmin",
+    "website": "https://connect.garmin.com/",
+    "badges": [
+      {
+        "id": "fitness_create_training_plan",
+        "name": "Bien organisé",
+        "description": "Planifiez un programme d'entraînement sur connect.garmin.com.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_51_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-24T10:33:38.458Z"
+      },
+      {
+        "id": "wellness_sleep_8hr",
+        "name": "Frais et dispo",
+        "description": "Dormez pendant 8 heures.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_50_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-30T19:59:59.000Z"
+      },
+      {
+        "id": "social_comment",
+        "name": "Commentateur",
+        "description": "Commentez une activité ou un défi",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_31_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-23T20:43:15.609Z"
+      },
+      {
+        "id": "steps_30000_1day",
+        "name": "30 000 pas",
+        "description": "Faites 30 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_136_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-08-31T19:59:59.000Z"
+      },
+      {
+        "id": "steps_7day_goal",
+        "name": "7 jours de suite",
+        "description": "Validez votre objectif de pas quotidien 7 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_104_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-03T19:59:59.000Z"
+      },
+      {
+        "id": "steps_25000_1day",
+        "name": "25 000 pas",
+        "description": "Faites 25 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_135_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-08-28T19:59:59.000Z"
+      },
+      {
+        "id": "steps_20000_1day",
+        "name": "20 000 pas",
+        "description": "Faites 20 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_134_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-08-28T19:59:59.000Z"
+      },
+      {
+        "id": "wellness_intense_300",
+        "name": "Intensité - 300",
+        "description": "Atteindre les 300 minutes intensives en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_65_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-08-28T19:59:59.000Z"
+      },
+      {
+        "id": "profile_add_multidevice",
+        "name": "Fan de Garmin",
+        "description": "Ajoutez plus d'un appareil Garmin à votre compte.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_40_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-23T20:38:45.841Z"
+      },
+      {
+        "id": "fitness_improve_vo2max",
+        "name": "Machine bien huilée",
+        "description": "Améliorez votre VO2 max. de cyclisme ou de course à pied.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_131_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-09-20T22:00:00.000Z"
+      },
+      {
+        "id": "challenge_run_5k_2022_07",
+        "name": "Week-end 5 km - Juillet",
+        "description": "Participez à ce défi et enregistrez une activité de course de 5 km entre le 1 et le 3 juillet.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_5A8659F61E99400EBE91A198791B2F5F_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-07-03T06:57:48.000Z"
+      },
+      {
+        "id": "social_connect_social_network",
+        "name": "Connecté",
+        "description": "Recherchez des contacts en liant votre compte à un réseau social.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_39_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-08-11T08:08:53.712Z"
+      },
+      {
+        "id": "challenge_join_weekly_challenge",
+        "name": "Je suis partant",
+        "description": "Participez jusqu'au bout à un challenge hebdomadaire.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_22_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-01-10T10:17:57.615Z"
+      },
+      {
+        "id": "wellness_intense_200",
+        "name": "Intensité - 200",
+        "description": "Atteindre les 200 minutes intensives en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_64_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-03-21T21:59:59.000Z"
+      },
+      {
+        "id": "activity_new_year",
+        "name": "Bonne résolution",
+        "description": "Enregistrez une activité pendant le jour de l'an.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_55_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2022-01-01T13:17:34.000Z"
+      },
+      {
+        "id": "challenge_run_5k_2021_12",
+        "name": "Week-end 5 km - Décembre",
+        "description": "Participez à ce défi et enregistrez une activité de course à pied de 5 kilomètres entre le 10 et le 12 décembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2C405126E2A041648EC342BC6560477C_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-12-12T13:58:00.000Z"
+      },
+      {
+        "id": "wellness_intense_150",
+        "name": "Intensité - 150",
+        "description": "Atteindre les 150 minutes intensives en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_63_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-12-09T21:59:59.000Z"
+      },
+      {
+        "id": "steps_3day_goal",
+        "name": "3 jours de suite",
+        "description": "Validez votre objectif de pas quotidien 3 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_103_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-12-01T19:34:35.351Z"
+      },
+      {
+        "id": "steps_15000_1day",
+        "name": "15 000 pas",
+        "description": "Faites 15 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_133_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-12-01T19:34:35.864Z"
+      },
+      {
+        "id": "steps_beat_yesterday",
+        "name": "Dépassez-vous",
+        "description": "Faites plus de pas que la veille en atteignant votre objectif du jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_141_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-29T21:59:59.000Z"
+      },
+      {
+        "id": "activity_log_2days",
+        "name": "Échauffement",
+        "description": "Enregistrez une activité 2 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_139_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-30T15:29:52.000Z"
+      },
+      {
+        "id": "challenge_total_run_50miles_2021_11",
+        "name": "Course en novembre",
+        "description": "Participez à ce défi et courez 50 miles (80,5 km) en novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_9D0B5D1B04DA4C99B263BCF25A4135AA_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-30T15:29:52.000Z"
+      },
+      {
+        "id": "social_add_connection",
+        "name": "J'ai plein d'amis",
+        "description": "Ajoutez un nouveau contact.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_27_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-10T17:39:21.606Z"
+      },
+      {
+        "id": "fitness_create_workout",
+        "name": "Vive le sport !",
+        "description": "Créez un entraînement sur connect.garmin.com.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_54_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-29T10:39:37.707Z"
+      },
+      {
+        "id": "challenge_run_10k_2021_11",
+        "name": "Week-end 10 km - Novembre",
+        "description": "Participez à ce défi et enregistrez une activité de course à pied de 10 kilomètres entre le 26 et le 28 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_A5B71C6EF059403585F5662DC18ED353_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-27T12:31:04.000Z"
+      },
+      {
+        "id": "run_1mile",
+        "name": "1 mile",
+        "description": "Courez 1 mile en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_73_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-27T13:43:22.000Z"
+      },
+      {
+        "id": "social_like",
+        "name": "J'aime ça !",
+        "description": "Mettre un \"J'aime\" à une activité ou à un commentaire.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_30_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-14T18:28:31.389Z"
+      },
+      {
+        "id": "activity_1log_more_1day",
+        "name": "Coup double",
+        "description": "Enregistrez deux activités le même jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_5_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-11-06T10:00:31.000Z"
+      },
+      {
+        "id": "wellness_log_weight",
+        "name": "Pesée",
+        "description": "Enregistrez votre poids.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_52_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-30T13:41:59.768Z"
+      },
+      {
+        "id": "wellness_intense_weekly_goal",
+        "name": "Entraînement intensif",
+        "description": "Atteindre un objectif hebdomadaire de minutes intensives.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_61_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-10T14:40:10.616Z"
+      },
+      {
+        "id": "social_add_profile_photo",
+        "name": "Photogénique",
+        "description": "Ajoutez une photo de profil.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_34_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-03T19:21:38.458Z"
+      },
+      {
+        "id": "run_5km",
+        "name": "Course de 5 km",
+        "description": "Courez 5 kilomètres en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_74_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-04T12:43:32.000Z"
+      },
+      {
+        "id": "fitness_training_effect_4",
+        "name": "Grande amélioration",
+        "description": "Atteindre un score de Training Effet aérobie de 4 pour une activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_66_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-04T12:43:32.000Z"
+      },
+      {
+        "id": "activity_1log",
+        "name": "Mise en route",
+        "description": "Enregistrez une activité à l'aide de votre appareil Garmin.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_20_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-04T12:43:32.000Z"
+      },
+      {
+        "id": "wellness_intense_100",
+        "name": "Intensité - 100",
+        "description": "Atteindre les 100 minutes intensives en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_62_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-04T13:35:59.201Z"
+      },
+      {
+        "id": "run_10km",
+        "name": "10 km d'une traite",
+        "description": "Courez 10 kilomètres en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_75_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-10T13:33:44.000Z"
+      },
+      {
+        "id": "fitness_create_course",
+        "name": "Éclaireur",
+        "description": "Créez un parcours.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_41_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-10-10T09:36:32.827Z"
+      },
+      {
+        "id": "fitness_set_pr",
+        "name": "Record du monde perso",
+        "description": "Établissez un record personnel.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_49_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": true,
+        "acquisitionDate": "2021-09-29T22:00:00.000Z"
+      },
+      {
+        "id": "challenge_run_10k_2022_11",
+        "name": "Week-end 10 km - Novembre",
+        "description": "Participez à ce défi et enregistrez une activité de course de 10 kilomètres entre le 11 et le 13 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_C11D3C699A134CC7B37171B326DB2419_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_step_100k_2022_11",
+        "name": "Pas de faux pas en novembre",
+        "description": "Participez à ce défi et enregistrez 100 000 pas entre le 1er et le 14 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_68D41C89AE17419F90CDEB48D8E45F0E_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_marathon_sprint_2022_11",
+        "name": "Marathon de novembre - Course",
+        "description": "Participez à ce défi et enregistrez 26,2 miles d'activités de course à pied entre le 1er et le 21 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_D813B28134314434B891226ADFEC1448_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_cycle_100km_2022_11",
+        "name": "100 km à vélo - Novembre",
+        "description": "Participez à ce défi et enregistrez 100 kilomètres à vélo entre le 20 et le 26 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1F1F534E5BA8476FABE5A9827761ABCF_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_walk_3mi_2022_11",
+        "name": "Week-end de marche - Novembre",
+        "description": "Participez à ce défi et enregistrez une activité de marche de 3 miles entre le 25 et le 27 novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_326B42D1FF994C7B9BF065F256C79519_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_strength_4hr_2022_11",
+        "name": "Renforcement de novembre",
+        "description": "Participez à ce défi et enregistrez un total de quatre heures d'activités de musculation en novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_42561962544C47708BDE020E5DC3DB7C_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_activity_20_2022_11",
+        "name": "Bougez en novembre",
+        "description": "Participez à ce défi et enregistrez 20 activités d'au moins 20 minutes chacune en novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2079FB9D191F41238D77D332F719F4DC_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_cycle_400km_2022_11",
+        "name": "Tour en novembre",
+        "description": "Participez à ce défi et enregistrez 400 kilomètres d'activités de vélo pendant le mois de novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_38B33560CD60419992F592D1D793BF74_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_run_50mi_2022_11",
+        "name": "Course en novembre",
+        "description": "Participez à ce défi et courez 50 miles (80,5 km) en novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_9F439340F80543B183BA4F28692D5550_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_cycle_climb_10000_ft_2022_11",
+        "name": "Grimpeur en novembre",
+        "description": "Participez à ce défi et grimpez 10 000 pieds à vélo en novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_BB1223774A834810861A44E572710546_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_step_300k_2022_11",
+        "name": "Mois de la marche - Novembre",
+        "description": "Participez à ce défi et enregistrez 300 000 pas pendant le mois de novembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_3ECF86FBF6F5451288342CCBA05DF7CA_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_new_year_eve",
+        "name": "Fin d'année en beauté",
+        "description": "Enregistrez une activité le dernier jour de l'an.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_56_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_cycle_675km_2022_10",
+        "name": "Cyclisme en 2022 - Étape 4",
+        "description": "Participez à ce défi et enregistrez 675 km (419,5 mi) d'activités de cyclisme entre le 1er octobre et le 31 décembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2348A42C4BB64EE3AAE950F4F39F6109_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_walk_92mi_2022_10",
+        "name": "Marche en 2022 - Étape 4",
+        "description": "Participez à ce défi et enregistrez 148 km (92 mi) d'activité de marche entre le 1er octobre et le 31 décembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_4EF705C6100442D29DD1CA2C9FFD5145_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_total_run_300km_2022_10",
+        "name": "Course en 2022 - Étape 4",
+        "description": "Participez à ce défi et enregistrez 300 km (186,5 mi) d'activité de course à pied entre le 1er octobre et le 31 décembre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_B76C3D68576B41D1A9B99D0D948915D1_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_valentine",
+        "name": "Sois ma Valentine/mon Valentin",
+        "description": "Enregistrez une activité pendant la Saint Valentin.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1092_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "social_share_valentine_badge",
+        "name": "Partagez l'amour",
+        "description": "Partagez votre badge de Saint-Valentin le jour où vous le gagnez.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1093_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_captain_marvel_0308",
+        "name": "Noble Warrior Hero",
+        "description": "Enregistrez une activité lors de la journée internationale de la femme (le 8 mars) à l'aide de votre montre Captain Marvel.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1049_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_rey_0504",
+        "name": "Lumière. Ténèbres. Un équilibre.",
+        "description": "Enregistrez une activité le 4 mai avec votre montre Rey.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1053_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_darth_vader_0504",
+        "name": "Impressionnant. Très impressionnant.",
+        "description": "Enregistrez une activité le 4 mai avec votre montre Dark Vador.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1058_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_first_avenger_0704",
+        "name": "No, You Move",
+        "description": "Enregistrez une activité à la date d'anniversaire de Steve Roger (le 4 juillet) à l'aide de votre montre First Avenger.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1046_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_halloween_2019",
+        "name": "Farce ou friandise",
+        "description": "Enregistrez une activité le jour d'Halloween.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1000018_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "steps_30day_10000",
+        "name": "Défi 10 000 pas par jour",
+        "description": "Faites 10 000 pas par jour pendant 30 jours consécutifs. (La série doit commencer le 1er avril 2020 ou plus tard.)",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1136_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "steps_30day_goal",
+        "name": "30 jours de suite",
+        "description": "Validez votre objectif de pas quotidien 30 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_105_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "steps_60day_goal",
+        "name": "60 jours de suite",
+        "description": "Validez votre objectif de pas quotidien 60 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_106_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_10mile",
+        "name": "10 miles en selle",
+        "description": "Parcourez 10 miles à vélo en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_118_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_5mile",
+        "name": "5 miles en selle",
+        "description": "Parcourez 5 miles à vélo en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_117_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_50log_total",
+        "name": "Plongeur débutant",
+        "description": "Enregistrez 50 plongées.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1024_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_join_adhoc_challenge",
+        "name": "Défi accepté",
+        "description": "Participez jusqu'au bout à un challenge avec vos contacts.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_24_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_climb_500ft",
+        "name": "Grimpeur niveau 1",
+        "description": "Grimpez l'équivalent de 500 pieds pendant une activité de cyclisme.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_15_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "breath_5_times",
+        "name": "Inspirez, expirez - 2",
+        "description": "Enregistrez 5 exercices de respiration.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1168_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_time_morning",
+        "name": "Lève-tôt",
+        "description": "Enregistrez une activité entre 4 h et 7 h.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_4_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_add_gear",
+        "name": "Premier équipement",
+        "description": "Ajoutez votre équipement (vos baskets par exemple) dans Garmin Connect.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_44_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_one_time_2022",
+        "name": "Première activité Tacx",
+        "description": "Enregistrez votre première activité avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_68C31BA0526E11EC9F100800200C9A66_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_complete_goal",
+        "name": "VICTOIRE !",
+        "description": "Atteindre un objectif.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_48_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_retire_gear",
+        "name": "Le temps des adieux",
+        "description": "Supprimez un équipement.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_45_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "hiit_1_time",
+        "name": "HIIT 1",
+        "description": "Enregistrez une activité HIIT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1313_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "hiit_25_times",
+        "name": "HIIT 2",
+        "description": "Enregistrez 25 activités HIIT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1314_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "device_type_captain_marvel",
+        "name": "Higher. Further. Faster.",
+        "description": "Ajoutez une montre Captain Marvel à votre compte.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1048_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_time_night",
+        "name": "Couche-tard",
+        "description": "Enregistrez une activité entre 22 h et 4 h.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_3_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "device_type_first_avenger",
+        "name": "I Can Do This All Day",
+        "description": "Ajoutez une montre First Avenger à votre compte.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1045_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "swim_yd_m",
+        "name": "Indécis",
+        "description": "Enregistrez une activité de natation en mètres et une autre en yards.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_110_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_join_group_challenge",
+        "name": "Cercle privé",
+        "description": "Participez jusqu'au bout à un challenge de groupe.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_23_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_scuba",
+        "name": "Première plongée",
+        "description": "Enregistrez une plongée en mode monogaz, multigaz ou profondimètre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1018_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "device_type_rey",
+        "name": "Rien n'est impossible",
+        "description": "Ajoutez une montre Rey à votre compte.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1051_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_gravel",
+        "name": "Dans les cailloux",
+        "description": "Faites un tour en Gravel bike.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_19_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "pilates_1_time",
+        "name": "Pilates 1",
+        "description": "Enregistrez une activité Pilates.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1308_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "pilates_25_times",
+        "name": "Pilates 2",
+        "description": "Enregistrez 25 activités Pilates.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1309_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "device_type_darth_vader",
+        "name": "Maître de la galaxie",
+        "description": "Ajoutez une montre Dark Vador à votre compte.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1054_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_1log",
+        "name": "En selle",
+        "description": "Partez pédaler.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_116_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_create_goal",
+        "name": "Je peux le faire !",
+        "description": "Créez un objectif.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_47_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_mountain_bike",
+        "name": "Tout-terrain",
+        "description": "Faites un tour en VTT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_18_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "strength_10_times",
+        "name": "Musclor niveau 2",
+        "description": "Enregistrez 10 activités de musculation.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1176_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_10km_cycling",
+        "name": "10 km Tacx",
+        "description": "Enregistrez une activité de cyclisme de 10 km avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_7A1A1C9FCBE14E7DAA0A76C4182F3319_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_25km_cycling",
+        "name": "25 km Tacx",
+        "description": "Enregistrez une activité de cyclisme de 25 km avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_31D7CF65831047549CAE0AF64CD9FE1E_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_50km_cycling",
+        "name": "50 km Tacx",
+        "description": "Enregistrez une activité de cyclisme de 50 km avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2239461027FC43298551B9A50752F37E_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_apnea",
+        "name": "Le Grand Bleu",
+        "description": "Enregistrez une plongée en mode apnée ou chasse en apnée.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1019_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "social_share_activity",
+        "name": "Partageur",
+        "description": "Partagez une activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_32_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_create_segment",
+        "name": "Pionnier",
+        "description": "Créez un segment.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_42_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "treadmill_10_km",
+        "name": "10 km sur tapis",
+        "description": "Courez 10 km lors d'une activité sur tapis de course.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1146_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "treadmill_5_km",
+        "name": "5 km sur tapis",
+        "description": "Courez 5 km lors d'une activité sur tapis de course.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1145_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "treadmill_1_mile",
+        "name": "1 mile sur tapis",
+        "description": "Courez 1 mile lors d'une activité sur tapis de course.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1144_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "walk_10_times",
+        "name": "Un pied devant l'autre - 2",
+        "description": "Enregistrez 10 activités de marche.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1172_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "social_join_group",
+        "name": "Bienvenue",
+        "description": "Rejoindre un groupe.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_28_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_balance",
+        "name": "Le Yin et le Yang",
+        "description": "Atteindre un équilibre de puissance global de 50/50 entre les pédales gauche et droite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_71_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "yoga_10_times",
+        "name": "Maître yogi niveau 2",
+        "description": "Enregistrez 10 activités de yoga.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1164_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_viral",
+        "name": "Zombie",
+        "description": "Attrapez le virus Zombie en participant jusqu'au bout à un challenge avec une personne qui possède ce badge.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_12_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "breath_1_times",
+        "name": "Inspirez, expirez",
+        "description": "Enregistrez 1 exercice de respiration.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1140_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "indoor_cycle_10_mile",
+        "name": "10 miles en selle en intérieur",
+        "description": "Parcourez 10 miles lors d'une activité de cyclisme en intérieur.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1141_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "indoor_cycle_20_mile",
+        "name": "20 miles en selle en intérieur",
+        "description": "Parcourez 20 miles lors d'une activité de cyclisme en intérieur.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1142_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "strengh_5_times",
+        "name": "Musclor",
+        "description": "Enregistrez 5 activités de musculation.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1139_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "walk_5_times",
+        "name": "Un pied devant l'autre",
+        "description": "Enregistrez 5 activités de marche.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1137_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "yoga_5_times",
+        "name": "Maître zen",
+        "description": "Enregistrez 5 activités de yoga.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1138_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 1,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_20mile",
+        "name": "20 miles en selle",
+        "description": "Parcourez 20 miles à vélo en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_119_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_temperature_under60f",
+        "name": "Plongée arctique",
+        "description": "Enregistrez une plongée dans une eau à moins de 15,5 ºC (60 ºF).",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1023_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_drone",
+        "name": "Vue aérienne",
+        "description": "Enregistrez une activité avec un drone.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_8_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_multisport",
+        "name": "Enchaînement",
+        "description": "Enregistrez une activité multisport. (Appareil compatible requis.)",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_7_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "challenge_win_adhoc",
+        "name": "Vainqueur",
+        "description": "Remportez un challenge contre vos contacts.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_9_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_climb_1000ft",
+        "name": "Grimpeur niveau 2",
+        "description": "Grimpez l'équivalent de 1 000 pieds pendant une activité de cyclisme.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_16_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "breath_25_times",
+        "name": "Inspirez, expirez - 3",
+        "description": "Enregistrez 25 exercices de respiration.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1167_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_rey_3yoga_1week",
+        "name": "La Force est en vous",
+        "description": "Enregistrez trois activités de yoga au cours d'une même semaine (lundi à dimanche) à l'aide de votre montre Rey.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1052_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_nitrox",
+        "name": "Bouffée d'oxygène",
+        "description": "Enregistrez une plongée avec du nitrox.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1021_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_trimix",
+        "name": "Bouffée d'hélium",
+        "description": "Enregistrez une plongée avec du trimix.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1022_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_wingsuit",
+        "name": "Écureuil volant",
+        "description": "Enregistrez un vol en wingsuit.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_6_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_temperature_under32f",
+        "name": "Totalement givré",
+        "description": "Enregistrez une activité quand la température est négative.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "hiit_50_times",
+        "name": "HIIT 3",
+        "description": "Enregistrez 50 activités HIIT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1315_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_darth_vader_elevation_gain_200",
+        "name": "Au-dessus de tout",
+        "description": "Enregistrez une activité avec un dénivelé positif d'au moins 150 m avec votre montre Dark Vador.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1055_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "fitness_past_gear",
+        "name": "Faut aller de l'avant",
+        "description": "Utilisez un équipement usé.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_46_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "swim_openwater",
+        "name": "Nage en eau libre",
+        "description": "Enregistrez une activité de natation en eau libre.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_109_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_multigas",
+        "name": "Tout mélangé",
+        "description": "Enregistrez une plongée multigaz.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1020_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_time_night",
+        "name": "Plongeur nocturne",
+        "description": "Enregistrez une plongée entre 17h30 et minuit.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1027_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_log_5days",
+        "name": "Au taquet",
+        "description": "Enregistrez une activité 5 jours de suite.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_140_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_first_avenger_duration_90min",
+        "name": "On Your Left",
+        "description": "Enregistrez une activité de 90 minutes ou plus à l'aide de votre montre First Avenger.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1047_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_200log_total",
+        "name": "Plongeur passionné",
+        "description": "Enregistrez 200 plongées.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1025_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "pilates_50_times",
+        "name": "Pilates 3",
+        "description": "Enregistrez 50 activités Pilates.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1310_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "strength_25_times",
+        "name": "Musclor niveau 3",
+        "description": "Enregistrer 25 activités de musculation.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1175_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_temperature_over100f",
+        "name": "Tête brulée",
+        "description": "Enregistrez une activité quand il fait 38 °C (100 °F) ou plus.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_captain_marvel_duration_90min",
+        "name": "Try to Keep Up",
+        "description": "Enregistrez une activité de 90 minutes ou plus à l'aide de votre montre Captain Marvel.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1062_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_elevation_gain_334",
+        "name": "Escalade virtuelle - The Narrows",
+        "description": "Enregistrez une activité de montée d'étages avec une ascension de 334 pieds.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1150_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "walk_25_times",
+        "name": "Un pied devant l'autre - 3",
+        "description": "Enregistrez 25 activités de marche.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1171_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "yoga_25_times",
+        "name": "Maître yogi niveau 3",
+        "description": "Enregistrez 25 activités de yoga.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1163_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "indoor_cycle_50_km",
+        "name": "50 km en selle en intérieur",
+        "description": "Parcourez 50 km lors d'une activité de cyclisme en intérieur.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1143_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 2,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_50mile",
+        "name": "50 miles en selle",
+        "description": "Parcourez 50 miles à vélo en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_120_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_climb_2000ft",
+        "name": "Grimpeur niveau 3",
+        "description": "Grimpez l'équivalent de 2 000 pieds pendant une activité de cyclisme.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_17_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "breath_50_times",
+        "name": "Inspirez, expirez - 4",
+        "description": "Enregistrez 50 exercices de respiration.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1166_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "breath_100_times",
+        "name": "Inspirez, expirez - 5",
+        "description": "Enregistrez 100 exercices de respiration.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1165_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_first_avenger_3strength_1week",
+        "name": "First Avenger",
+        "description": "Enregistrez trois activités de musculation au cours d'une même semaine (lundi à dimanche) à l'aide de votre montre First Avenger.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1061_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "hiit_100_times",
+        "name": "HIIT 4",
+        "description": "Enregistrez 100 activités HIIT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1316_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "hiit_200_times",
+        "name": "HIIT 5",
+        "description": "Enregistrez 200 activités HIIT.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1317_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_half_marathon",
+        "name": "Semi-marathon",
+        "description": "Courez 21,1 km (13,1 mi) en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_76_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_captain_marvel_3strength_1week",
+        "name": "Hone Your Strength",
+        "description": "Enregistrez trois activités de musculation au cours d'une même semaine (lundi à dimanche) à l'aide de votre montre Captain Marvel.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1050_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "indoor_cycle_50_mi",
+        "name": "50 miles en selle en intérieur",
+        "description": "Parcourez 50 miles lors d'une activité de cyclisme en intérieur.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1158_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_dive_500log_total",
+        "name": "Accro de plongée",
+        "description": "Enregistrez 500 plongées.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1026_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "pilates_100_times",
+        "name": "Pilates 4",
+        "description": "Enregistrez 100 activités Pilates.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1311_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "pilates_200_times",
+        "name": "Pilates 5",
+        "description": "Enregistrez 200 activités Pilates.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1312_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_1hour_40km",
+        "name": "À fond les pédales",
+        "description": "Enregistrez une activité de cyclisme de 40 kilomètres à une vitesse moyenne d'au moins 40 km/h.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_13_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_5hour_century",
+        "name": "Le bolide est lancé",
+        "description": "Parcourez 100 miles à vélo avec un temps écoulé de 5 heures ou moins.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_14_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "steps_40000_1day",
+        "name": "40 000 pas",
+        "description": "Faites 40 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_137_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "steps_50000_1day",
+        "name": "50 000 pas",
+        "description": "Faites 50 000 pas en un jour.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_138_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "strength_100_times",
+        "name": "Musclor niveau 4",
+        "description": "Enregistrez 100 activités de musculation.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1174_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "strength_200_times",
+        "name": "Musclor niveau 5",
+        "description": "Enregistrez 200 activités de musculation.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1173_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_100km_cycling",
+        "name": "100 km Tacx",
+        "description": "Enregistrez une activité de cyclisme de 100 km avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_2D6F1AAC96194E97BA0C827EB442E9B3_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_tacx_75km_cycling",
+        "name": "75 km Tacx",
+        "description": "Enregistrez une activité de cyclisme de 75 km avec l'application Tacx Training.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_53513ED61FB64EB08E770E283F04FB90_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_elevation_gain_1500",
+        "name": "Escalade virtuelle - Angels Landing",
+        "description": "Enregistrez une activité de montée d'étages avec une ascension de 1 500 pieds.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1147_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_elevation_gain_735",
+        "name": "Escalade virtuelle - Druid Arch",
+        "description": "Enregistrez une activité de montée d'étages avec une ascension de 735 pieds.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1149_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "activity_elevation_gain_1000",
+        "name": "Escalade virtuelle - Mist Trail",
+        "description": "Enregistrez une activité de montée d'étages avec une ascension de 1 000 pieds.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1148_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "walk_100_times",
+        "name": "Un pied devant l'autre - 4",
+        "description": "Enregistrez 100 activités de marche.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1170_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "walk_200_times",
+        "name": "Un pied devant l'autre - 5",
+        "description": "Enregistrez 200 activités de marche.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1169_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "yoga_100_times",
+        "name": "Maître yogi niveau 4",
+        "description": "Enregistrez 100 activités de yoga.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1162_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "yoga_200_times",
+        "name": "Maître yogi niveau 5",
+        "description": "Enregistrez 200 activités de yoga.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1161_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "treadmill_100_times",
+        "name": "Tapis de course - 100",
+        "description": "Enregistrez 100 activités sur tapis de course.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1159_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "treadmill_50_times",
+        "name": "Tapis de course - 50",
+        "description": "Enregistrez 50 activités sur tapis de course.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1160_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 4,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "cycle_100mile",
+        "name": "100 miles en selle",
+        "description": "Parcourez 100 miles à vélo en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_121_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_100km",
+        "name": "100 km d'une traite",
+        "description": "Courez 100 kilomètres en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_80_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_50mile",
+        "name": "50 miles d'une traite",
+        "description": "Courez 50 miles en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_79_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_50km",
+        "name": "50 km d'une traite",
+        "description": "Courez 50 kilomètres en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_78_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "indoor_cycle_4_hr",
+        "name": "4 heures en selle en intérieur",
+        "description": "Enregistrez une activité de vélo d'intérieur de 4 heures.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_1157_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_100mile",
+        "name": "Course folle",
+        "description": "Courez 100 miles en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_81_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      },
+      {
+        "id": "run_marathon",
+        "name": "Marathon",
+        "description": "Courez 42,2 km (26,2 mi) en une seule activité.",
+        "image": "https://connect.garmin.com/web-images/badges/xxhdpi/badge_77_sml.png?bust=4.61.0.18",
+        "isSquare": true,
+        "weight": 8,
+        "source": "garmin",
+        "acquired": false
+      }
+    ],
+    "pointsAcquired": 63,
+    "pointsTotal": 391,
+    "pointsPercentage": 16,
+    "badgesAcquired": 38,
+    "badgesTotal": 177,
+    "badgesPercentage": 21
+  },
+  {
     "name": "Codingame",
     "website": "https://www.codingame.com/",
     "badges": [
@@ -10,7 +1830,7 @@
         "description": "Solve 15 puzzles with a 100% score in Python3",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923527230935",
         "isSquare": true,
-        "weight": 22000,
+        "weight": 220,
         "acquired": true,
         "acquisitionDate": "2020-04-19T17:18:17.185Z"
       },
@@ -21,7 +1841,7 @@
         "description": "Solve 15 community puzzles with a 100% score",
         "image": "https://static.codingame.com/servlet/fileservlet?id=4465339362534",
         "isSquare": true,
-        "weight": 20700,
+        "weight": 207,
         "acquired": true,
         "acquisitionDate": "2021-10-30T10:47:18.011Z"
       },
@@ -32,7 +1852,7 @@
         "description": "Solve 7 puzzles with a 100% score in Python3",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923515288472",
         "isSquare": true,
-        "weight": 19600,
+        "weight": 196,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:27:04.089Z"
       },
@@ -43,7 +1863,7 @@
         "description": "Solve 7 community puzzles with a 100% score",
         "image": "https://static.codingame.com/servlet/fileservlet?id=4465329785016",
         "isSquare": true,
-        "weight": 18300,
+        "weight": 183,
         "acquired": true,
         "acquisitionDate": "2020-04-20T17:49:49.076Z"
       },
@@ -54,7 +1874,7 @@
         "description": "End 100 games of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31707109265454",
         "isSquare": true,
-        "weight": 17500,
+        "weight": 175,
         "acquired": true,
         "acquisitionDate": "2021-11-07T18:05:19.009Z"
       },
@@ -65,7 +1885,7 @@
         "description": "End 50 games of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31707048595966",
         "isSquare": true,
-        "weight": 15000,
+        "weight": 150,
         "acquired": true,
         "acquisitionDate": "2021-10-21T11:57:38.011Z"
       },
@@ -76,7 +1896,7 @@
         "description": "End 25 games of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31706603944501",
         "isSquare": true,
-        "weight": 12500,
+        "weight": 125,
         "acquired": true,
         "acquisitionDate": "2021-10-21T07:51:27.026Z"
       },
@@ -87,7 +1907,7 @@
         "description": "Solve 3 puzzles with a 100% score in Python3",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923501244752",
         "isSquare": true,
-        "weight": 12300,
+        "weight": 123,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:38:11.071Z"
       },
@@ -98,7 +1918,7 @@
         "description": "Solve the puzzle of the week",
         "image": "https://static.codingame.com/servlet/fileservlet?id=4465747465959",
         "isSquare": true,
-        "weight": 10400,
+        "weight": 104,
         "acquired": true,
         "acquisitionDate": "2020-04-19T17:18:17.185Z"
       },
@@ -109,7 +1929,7 @@
         "description": "Solve 3 community puzzles with a 100% score",
         "image": "https://static.codingame.com/servlet/fileservlet?id=4465315370799",
         "isSquare": true,
-        "weight": 10300,
+        "weight": 103,
         "acquired": true,
         "acquisitionDate": "2020-04-19T17:38:59.186Z"
       },
@@ -120,7 +1940,7 @@
         "description": "Reach a 100% score on three medium puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925126663265",
         "isSquare": true,
-        "weight": 10100,
+        "weight": 101,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:06:48.088Z"
       },
@@ -131,7 +1951,7 @@
         "description": "End 10 games of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31706544232742",
         "isSquare": true,
-        "weight": 10000,
+        "weight": 100,
         "acquired": true,
         "acquisitionDate": "2021-08-22T19:46:41.009Z"
       },
@@ -142,7 +1962,7 @@
         "description": "Reach a 100% score on Network Cabling puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924742823187",
         "isSquare": true,
-        "weight": 9200,
+        "weight": 92,
         "acquired": true,
         "acquisitionDate": "2020-04-28T16:51:43.000Z"
       },
@@ -153,7 +1973,7 @@
         "description": "Reach a 100% score on Stock Exchange Losses puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924882240166",
         "isSquare": true,
-        "weight": 9000,
+        "weight": 90,
         "acquired": true,
         "acquisitionDate": "2020-04-27T17:43:04.079Z"
       },
@@ -164,7 +1984,7 @@
         "description": "Reach a 100% score on Shadows of the Knight - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924812311456",
         "isSquare": true,
-        "weight": 8900,
+        "weight": 89,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:06:49.002Z"
       },
@@ -175,7 +1995,7 @@
         "description": "Reach a 100% score on Don't Panic - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924623806014",
         "isSquare": true,
-        "weight": 8700,
+        "weight": 87,
         "acquired": true,
         "acquisitionDate": "2020-04-26T09:18:45.002Z"
       },
@@ -186,7 +2006,7 @@
         "description": "Reach a 100% score on There is no Spoon - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924988447488",
         "isSquare": true,
-        "weight": 8500,
+        "weight": 85,
         "acquired": true,
         "acquisitionDate": "2020-04-19T20:04:25.002Z"
       },
@@ -197,7 +2017,7 @@
         "description": "Reach a 100% score on Death First Search - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924859513890",
         "isSquare": true,
-        "weight": 8400,
+        "weight": 84,
         "acquired": true,
         "acquisitionDate": "2020-04-19T14:02:15.419Z"
       },
@@ -208,7 +2028,7 @@
         "description": "Reach a 50% score on Network Cabling puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924216381813",
         "isSquare": true,
-        "weight": 7600,
+        "weight": 76,
         "acquired": true,
         "acquisitionDate": "2020-04-28T16:51:43.000Z"
       },
@@ -219,7 +2039,7 @@
         "description": "Reach a 50% score on Stock Exchange Losses puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924356289210",
         "isSquare": true,
-        "weight": 7400,
+        "weight": 74,
         "acquired": true,
         "acquisitionDate": "2020-04-26T09:39:30.001Z"
       },
@@ -230,7 +2050,7 @@
         "description": "Reach a 50% score on Shadows of the Knight - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924283366409",
         "isSquare": true,
-        "weight": 7300,
+        "weight": 73,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:06:49.002Z"
       },
@@ -241,7 +2061,7 @@
         "description": "Reach a 50% score on Don't Panic - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924109920502",
         "isSquare": true,
-        "weight": 7100,
+        "weight": 71,
         "acquired": true,
         "acquisitionDate": "2020-04-26T09:18:45.002Z"
       },
@@ -252,7 +2072,7 @@
         "description": "Reach a 50% score on There is no Spoon - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924453994222",
         "isSquare": true,
-        "weight": 6900,
+        "weight": 69,
         "acquired": true,
         "acquisitionDate": "2020-04-19T20:04:25.002Z"
       },
@@ -263,7 +2083,7 @@
         "description": "Reach a 50% score on Death First Search - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924328893042",
         "isSquare": true,
-        "weight": 6800,
+        "weight": 68,
         "acquired": true,
         "acquisitionDate": "2020-04-19T14:02:15.419Z"
       },
@@ -274,7 +2094,7 @@
         "description": "Solve the 1st validation test with at least 300l of fuel remaining on \"Mars Lander - Level 1\" puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925134353691",
         "isSquare": true,
-        "weight": 6600,
+        "weight": 66,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:50:26.583Z"
       },
@@ -285,7 +2105,7 @@
         "description": "Submit your code 100 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925254563678",
         "isSquare": true,
-        "weight": 6400,
+        "weight": 64,
         "acquired": true,
         "acquisitionDate": "2021-10-23T18:00:15.651Z"
       },
@@ -296,7 +2116,7 @@
         "description": "Run your code 1000 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925189810047",
         "isSquare": true,
-        "weight": 6300,
+        "weight": 63,
         "acquired": true,
         "acquisitionDate": "2021-08-22T19:57:13.994Z"
       },
@@ -307,7 +2127,7 @@
         "description": "Reach a 100% score on three easy puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925053079108",
         "isSquare": true,
-        "weight": 6100,
+        "weight": 61,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:41:49.051Z"
       },
@@ -318,7 +2138,7 @@
         "description": "Reach a 100% score using two different programming languages on any combination of puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923948658457",
         "isSquare": true,
-        "weight": 5950,
+        "weight": 59,
         "acquired": true,
         "acquisitionDate": "2022-11-11T15:22:07.009Z"
       },
@@ -329,7 +2149,7 @@
         "description": "Reach 100% on a given puzzle",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925099547074",
         "isSquare": true,
-        "weight": 5940,
+        "weight": 59,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:22:42.257Z"
       },
@@ -340,7 +2160,7 @@
         "description": "Start an event",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923838398387",
         "isSquare": true,
-        "weight": 5930,
+        "weight": 59,
         "acquired": true,
         "acquisitionDate": "2021-11-03T13:55:08.068Z"
       },
@@ -351,7 +2171,7 @@
         "description": "Submit your code during an event",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923822638415",
         "isSquare": true,
-        "weight": 5920,
+        "weight": 59,
         "acquired": true,
         "acquisitionDate": "2021-10-31T09:34:04.957Z"
       },
@@ -362,7 +2182,7 @@
         "description": "Register for an event",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923871788516",
         "isSquare": true,
-        "weight": 5910,
+        "weight": 59,
         "acquired": true,
         "acquisitionDate": "2021-10-30T13:13:29.457Z"
       },
@@ -373,7 +2193,7 @@
         "description": "Solve 1 puzzle with a 100% score in TypeScript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=38822903463906",
         "isSquare": true,
-        "weight": 5600,
+        "weight": 56,
         "acquired": true,
         "acquisitionDate": "2022-11-11T15:22:08.013Z"
       },
@@ -384,7 +2204,7 @@
         "description": "End 1 game of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31706526107180",
         "isSquare": true,
-        "weight": 5000,
+        "weight": 50,
         "acquired": true,
         "acquisitionDate": "2020-04-20T08:41:12.059Z"
       },
@@ -395,7 +2215,7 @@
         "description": "Solve 1 puzzle with a 100% score in Python3",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923491626496",
         "isSquare": true,
-        "weight": 5000,
+        "weight": 50,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:15:45.876Z"
       },
@@ -406,7 +2226,7 @@
         "description": "Solve 1 community puzzle with a 100% score",
         "image": "https://static.codingame.com/servlet/fileservlet?id=4465268901554",
         "isSquare": true,
-        "weight": 3700,
+        "weight": 37,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:37:56.102Z"
       },
@@ -417,7 +2237,7 @@
         "description": "Reach a 100% score on Horse-racing Duals puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924653811932",
         "isSquare": true,
-        "weight": 3600,
+        "weight": 36,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:22:18.750Z"
       },
@@ -428,7 +2248,7 @@
         "description": "Reach a 100% score on Defibrillators puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924591432516",
         "isSquare": true,
-        "weight": 3500,
+        "weight": 35,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:15:41.208Z"
       },
@@ -439,7 +2259,7 @@
         "description": "Reach a 100% score on MIME Type puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924694643736",
         "isSquare": true,
-        "weight": 3400,
+        "weight": 34,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:35:26.001Z"
       },
@@ -450,7 +2270,7 @@
         "description": "Reach a 100% score on Unary puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924570803494",
         "isSquare": true,
-        "weight": 3300,
+        "weight": 33,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:27:05.002Z"
       },
@@ -461,7 +2281,7 @@
         "description": "Reach a 100% score on ASCII Art puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924522383168",
         "isSquare": true,
-        "weight": 3200,
+        "weight": 32,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:12:52.004Z"
       },
@@ -472,7 +2292,7 @@
         "description": "Reach a 100% score on Mars Lander - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924706713928",
         "isSquare": true,
-        "weight": 3100,
+        "weight": 31,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:50:26.583Z"
       },
@@ -483,7 +2303,7 @@
         "description": "Reach a 100% score on Temperatures puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924945036200",
         "isSquare": true,
-        "weight": 3000,
+        "weight": 30,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:41:50.004Z"
       },
@@ -494,7 +2314,7 @@
         "description": "Reach a 100% score on The Descent puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924665129091",
         "isSquare": true,
-        "weight": 2800,
+        "weight": 28,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:22:42.796Z"
       },
@@ -505,7 +2325,7 @@
         "description": "Reach a 100% score on Power of Thor - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924772248198",
         "isSquare": true,
-        "weight": 2700,
+        "weight": 27,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:38:12.003Z"
       },
@@ -516,7 +2336,7 @@
         "description": "Reach a 50% score on Horse-racing Duals puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924133499878",
         "isSquare": true,
-        "weight": 2600,
+        "weight": 26,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:22:18.750Z"
       },
@@ -527,7 +2347,7 @@
         "description": "Reach a 50% score on Defibrillators puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924073642518",
         "isSquare": true,
-        "weight": 2500,
+        "weight": 25,
         "acquired": true,
         "acquisitionDate": "2020-04-19T15:15:41.208Z"
       },
@@ -538,7 +2358,7 @@
         "description": "Reach a 50% score on MIME Type puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924177780177",
         "isSquare": true,
-        "weight": 2400,
+        "weight": 24,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:35:26.001Z"
       },
@@ -549,7 +2369,7 @@
         "description": "Reach a 50% score on Unary puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924054691061",
         "isSquare": true,
-        "weight": 2300,
+        "weight": 23,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:27:05.002Z"
       },
@@ -560,7 +2380,7 @@
         "description": "Reach a 50% score on ASCII Art puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924006441783",
         "isSquare": true,
-        "weight": 2200,
+        "weight": 22,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:12:52.004Z"
       },
@@ -571,7 +2391,7 @@
         "description": "Reach a 50% score on Mars Lander - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924184353780",
         "isSquare": true,
-        "weight": 2100,
+        "weight": 21,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:50:26.583Z"
       },
@@ -582,7 +2402,7 @@
         "description": "Reach a 50% score on Temperatures puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924416214045",
         "isSquare": true,
-        "weight": 2000,
+        "weight": 20,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:41:50.004Z"
       },
@@ -593,7 +2413,7 @@
         "description": "Reach a 50% score on The Descent puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924149432079",
         "isSquare": true,
-        "weight": 1800,
+        "weight": 18,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:22:42.796Z"
       },
@@ -604,7 +2424,7 @@
         "description": "Reach a 50% score on Power of Thor - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924242528463",
         "isSquare": true,
-        "weight": 1700,
+        "weight": 17,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:38:12.003Z"
       },
@@ -615,7 +2435,7 @@
         "description": "Reach a 100% score on Onboarding puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924763999551",
         "isSquare": true,
-        "weight": 1100,
+        "weight": 11,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:15:45.876Z"
       },
@@ -626,7 +2446,7 @@
         "description": "Run your code 100 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925177951682",
         "isSquare": true,
-        "weight": 700,
+        "weight": 7,
         "acquired": true,
         "acquisitionDate": "2020-04-19T13:30:15.839Z"
       },
@@ -637,7 +2457,7 @@
         "description": "Submit your code 10 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925245597519",
         "isSquare": true,
-        "weight": 600,
+        "weight": 6,
         "acquired": true,
         "acquisitionDate": "2020-04-19T14:35:30.374Z"
       },
@@ -648,7 +2468,7 @@
         "description": "Submit your code for the third time in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925081226204",
         "isSquare": true,
-        "weight": 500,
+        "weight": 5,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:38:09.056Z"
       },
@@ -659,7 +2479,7 @@
         "description": "Run your code for the first time in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925077592248",
         "isSquare": true,
-        "weight": 400,
+        "weight": 4,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:15:25.004Z"
       },
@@ -670,7 +2490,7 @@
         "description": "Add a nickname to your profile",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923937611019",
         "isSquare": true,
-        "weight": 100,
+        "weight": 1,
         "acquired": true,
         "acquisitionDate": "2020-04-19T12:14:22.003Z"
       },
@@ -681,7 +2501,7 @@
         "description": "I  created a community contest.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=16180064327273",
         "isSquare": true,
-        "weight": 30000,
+        "weight": 300,
         "acquired": false
       },
       {
@@ -691,7 +2511,7 @@
         "description": "Finish 1st in any contest",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923884359394",
         "isSquare": true,
-        "weight": 25000,
+        "weight": 250,
         "acquired": false
       },
       {
@@ -701,7 +2521,7 @@
         "description": "Finish 1st in a language ranking, in any contest (With a score greater than 50% for Solo contests)",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923792023719",
         "isSquare": true,
-        "weight": 24900,
+        "weight": 249,
         "acquired": false
       },
       {
@@ -711,7 +2531,7 @@
         "description": "Finish in the top 3, in any contest",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923895836180",
         "isSquare": true,
-        "weight": 24800,
+        "weight": 248,
         "acquired": false
       },
       {
@@ -721,7 +2541,7 @@
         "description": "Finish in the top 3 in a language ranking, in any contest (With a score greater than 50% for Solo contests)",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923806378980",
         "isSquare": true,
-        "weight": 24700,
+        "weight": 247,
         "acquired": false
       },
       {
@@ -731,7 +2551,7 @@
         "description": "Finish in the top 10, in any contest",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923900460781",
         "isSquare": true,
-        "weight": 24600,
+        "weight": 246,
         "acquired": false
       },
       {
@@ -741,7 +2561,7 @@
         "description": "Finish in the top 10 in a language ranking, in any contest (With a score greater than 50% for Solo contests)",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923812170835",
         "isSquare": true,
-        "weight": 24500,
+        "weight": 245,
         "acquired": false
       },
       {
@@ -751,7 +2571,7 @@
         "description": "Finish in the top 50, in any contest",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923919321884",
         "isSquare": true,
-        "weight": 24300,
+        "weight": 243,
         "acquired": false
       },
       {
@@ -761,7 +2581,7 @@
         "description": "Reach a 100% score on three very hard puzzles.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925067246288",
         "isSquare": true,
-        "weight": 24100,
+        "weight": 241,
         "acquired": false
       },
       {
@@ -771,7 +2591,7 @@
         "description": "Finish the 8th test of the \"Triangulation\" puzzle with at least 3 remaining jumps and get a 100% score.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925216916635",
         "isSquare": true,
-        "weight": 24000,
+        "weight": 240,
         "acquired": false
       },
       {
@@ -781,7 +2601,7 @@
         "description": "Reach a 100% score on Vox Codei - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925023249158",
         "isSquare": true,
-        "weight": 23900,
+        "weight": 239,
         "acquired": false
       },
       {
@@ -791,7 +2611,7 @@
         "description": "Reach a 100% score on Shadows of the Knight - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924826324356",
         "isSquare": true,
-        "weight": 23800,
+        "weight": 238,
         "acquired": false
       },
       {
@@ -801,7 +2621,7 @@
         "description": "Reach a 100% score on The Resistance puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925004003634",
         "isSquare": true,
-        "weight": 23700,
+        "weight": 237,
         "acquired": false
       },
       {
@@ -811,7 +2631,7 @@
         "description": "Reach a 100% score on Music Scores puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924611580559",
         "isSquare": true,
-        "weight": 23600,
+        "weight": 236,
         "acquired": false
       },
       {
@@ -821,7 +2641,7 @@
         "description": "Reach a 100% score on Nintendo Open Challenge.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924759959507",
         "isSquare": true,
-        "weight": 23500,
+        "weight": 235,
         "acquired": false
       },
       {
@@ -831,7 +2651,7 @@
         "description": "Solve 100% of Mars Lander - Level 3 with at least 400l of fuel left on the 2nd validation test.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925156270740",
         "isSquare": true,
-        "weight": 23400,
+        "weight": 234,
         "acquired": false
       },
       {
@@ -841,7 +2661,7 @@
         "description": "Reach a 100% score on The Fall - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924975463423",
         "isSquare": true,
-        "weight": 23300,
+        "weight": 233,
         "acquired": false
       },
       {
@@ -851,7 +2671,7 @@
         "description": "Reach a 100% score using fifteen different programming languages on any combination of puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923980068700",
         "isSquare": true,
-        "weight": 23000,
+        "weight": 230,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -862,7 +2682,7 @@
         "description": "Participate 45 times in the ranking of puzzle solutions.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=65804104938983",
         "isSquare": true,
-        "weight": 22950,
+        "weight": 229,
         "acquired": false
       },
       {
@@ -872,7 +2692,7 @@
         "description": "Solve 15 puzzles with a 100% score in PHP",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923481159122",
         "isSquare": true,
-        "weight": 22900,
+        "weight": 229,
         "acquired": false
       },
       {
@@ -882,7 +2702,7 @@
         "description": "Solve 15 puzzles with a 100% score in Java",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923202296412",
         "isSquare": true,
-        "weight": 22800,
+        "weight": 228,
         "acquired": false
       },
       {
@@ -892,7 +2712,7 @@
         "description": "Solve 15 puzzles with a 100% score in C#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922880904560",
         "isSquare": true,
-        "weight": 22700,
+        "weight": 227,
         "acquired": false
       },
       {
@@ -902,7 +2722,7 @@
         "description": "Solve 15 puzzles with a 100% score in Javascript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923247682469",
         "isSquare": true,
-        "weight": 22600,
+        "weight": 226,
         "acquired": false
       },
       {
@@ -912,7 +2732,7 @@
         "description": "Solve 15 puzzles with a 100% score in TypeScript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=38823044854472",
         "isSquare": true,
-        "weight": 22600,
+        "weight": 226,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -923,7 +2743,7 @@
         "description": "Solve 15 puzzles with a 100% score in ObjectiveC",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923325579970",
         "isSquare": true,
-        "weight": 22500,
+        "weight": 225,
         "acquired": false
       },
       {
@@ -933,7 +2753,7 @@
         "description": "Solve 15 puzzles with a 100% score in C++",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922922204694",
         "isSquare": true,
-        "weight": 22400,
+        "weight": 224,
         "acquired": false
       },
       {
@@ -943,7 +2763,7 @@
         "description": "Solve 15 puzzles with a 100% score in Swift",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448530870385",
         "isSquare": true,
-        "weight": 22301,
+        "weight": 223,
         "acquired": false
       },
       {
@@ -953,7 +2773,7 @@
         "description": "Solve 15 puzzles with a 100% score in C",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922840039192",
         "isSquare": true,
-        "weight": 22300,
+        "weight": 223,
         "acquired": false
       },
       {
@@ -963,7 +2783,7 @@
         "description": "Solve 15 puzzles with a 100% score in D",
         "image": "https://static.codingame.com/servlet/fileservlet?id=34889206625104",
         "isSquare": true,
-        "weight": 22300,
+        "weight": 223,
         "acquired": false
       },
       {
@@ -973,7 +2793,7 @@
         "description": "Solve 15 puzzles with a 100% score in Perl",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923447196605",
         "isSquare": true,
-        "weight": 22100,
+        "weight": 221,
         "acquired": false
       },
       {
@@ -983,7 +2803,7 @@
         "description": "Solve 15 puzzles with a 100% score in Ruby",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923606313418",
         "isSquare": true,
-        "weight": 21900,
+        "weight": 219,
         "acquired": false
       },
       {
@@ -993,7 +2813,7 @@
         "description": "Solve 15 puzzles with a 100% score in Rust",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448445416671",
         "isSquare": true,
-        "weight": 21801,
+        "weight": 218,
         "acquired": false
       },
       {
@@ -1003,7 +2823,7 @@
         "description": "Solve 15 puzzles with a 100% score in Bash",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922800676298",
         "isSquare": true,
-        "weight": 21800,
+        "weight": 218,
         "acquired": false
       },
       {
@@ -1013,7 +2833,7 @@
         "description": "Solve 15 puzzles with a 100% score in Kotlin",
         "image": "https://static.codingame.com/servlet/fileservlet?id=14440178045771",
         "isSquare": true,
-        "weight": 21800,
+        "weight": 218,
         "acquired": false
       },
       {
@@ -1023,7 +2843,7 @@
         "description": "Solve 15 puzzles with a 100% score in Dart",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923006349276",
         "isSquare": true,
-        "weight": 21700,
+        "weight": 217,
         "acquired": false
       },
       {
@@ -1033,7 +2853,7 @@
         "description": "Solve 15 puzzles with a 100% score in Scala",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923644205261",
         "isSquare": true,
-        "weight": 21600,
+        "weight": 216,
         "acquired": false
       },
       {
@@ -1043,7 +2863,7 @@
         "description": "Solve 15 puzzles with a 100% score in VB.NET",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923686799386",
         "isSquare": true,
-        "weight": 21500,
+        "weight": 215,
         "acquired": false
       },
       {
@@ -1053,7 +2873,7 @@
         "description": "Solve 15 puzzles with a 100% score in Pascal",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923405489926",
         "isSquare": true,
-        "weight": 21400,
+        "weight": 214,
         "acquired": false
       },
       {
@@ -1063,7 +2883,7 @@
         "description": "Solve 15 puzzles with a 100% score in OCaml",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923365183693",
         "isSquare": true,
-        "weight": 21300,
+        "weight": 213,
         "acquired": false
       },
       {
@@ -1073,7 +2893,7 @@
         "description": "Solve 15 puzzles with a 100% score in Lua",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923282915301",
         "isSquare": true,
-        "weight": 21200,
+        "weight": 212,
         "acquired": false
       },
       {
@@ -1083,7 +2903,7 @@
         "description": "Solve 15 puzzles with a 100% score in Haskell",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923169403217",
         "isSquare": true,
-        "weight": 21100,
+        "weight": 211,
         "acquired": false
       },
       {
@@ -1093,7 +2913,7 @@
         "description": "Solve 15 puzzles with a 100% score in Groovy",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923122646022",
         "isSquare": true,
-        "weight": 21000,
+        "weight": 210,
         "acquired": false
       },
       {
@@ -1103,7 +2923,7 @@
         "description": "Solve 15 puzzles with a 100% score in Go",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923081880436",
         "isSquare": true,
-        "weight": 20900,
+        "weight": 209,
         "acquired": false
       },
       {
@@ -1113,7 +2933,7 @@
         "description": "Solve 15 puzzles with a 100% score in F#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923041512174",
         "isSquare": true,
-        "weight": 20800,
+        "weight": 208,
         "acquired": false
       },
       {
@@ -1123,7 +2943,7 @@
         "description": "Solve 15 puzzles with a 100% score in Clojure",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922967849905",
         "isSquare": true,
-        "weight": 20700,
+        "weight": 207,
         "acquired": false
       },
       {
@@ -1133,7 +2953,7 @@
         "description": "Start 12 events",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923864394396",
         "isSquare": true,
-        "weight": 20660,
+        "weight": 206,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1144,7 +2964,7 @@
         "description": "Twenty of your invited friends have registered",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923734656065",
         "isSquare": true,
-        "weight": 20655,
+        "weight": 206,
         "acquired": false
       },
       {
@@ -1154,7 +2974,7 @@
         "description": "Get 100 likes or more on your total forum posts",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3349946760264",
         "isSquare": true,
-        "weight": 20650,
+        "weight": 206,
         "acquired": false
       },
       {
@@ -1164,7 +2984,7 @@
         "description": "Reach a 100% score on three difficult puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925105695233",
         "isSquare": true,
-        "weight": 20635,
+        "weight": 206,
         "acquired": false
       },
       {
@@ -1174,7 +2994,7 @@
         "description": "Finish in the top 100, in any contest",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923922901984",
         "isSquare": true,
-        "weight": 20630,
+        "weight": 206,
         "acquired": false
       },
       {
@@ -1184,7 +3004,7 @@
         "description": "Reach a 100% score using ten different programming languages on any combination of puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923977125691",
         "isSquare": true,
-        "weight": 20620,
+        "weight": 206,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1195,7 +3015,7 @@
         "description": "Start six events",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923859026951",
         "isSquare": true,
-        "weight": 20600,
+        "weight": 206,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1206,7 +3026,7 @@
         "description": "Solve 7 puzzles with a 100% score in PHP",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923475112934",
         "isSquare": true,
-        "weight": 20500,
+        "weight": 205,
         "acquired": false
       },
       {
@@ -1216,7 +3036,7 @@
         "description": "Participate 21 times in the ranking of puzzle solutions.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=65804041835548",
         "isSquare": true,
-        "weight": 20450,
+        "weight": 204,
         "acquired": false
       },
       {
@@ -1226,7 +3046,7 @@
         "description": "Solve 7 puzzles with a 100% score in Java",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923196268708",
         "isSquare": true,
-        "weight": 20400,
+        "weight": 204,
         "acquired": false
       },
       {
@@ -1236,7 +3056,7 @@
         "description": "Solve 7 puzzles with a 100% score in C#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922871112482",
         "isSquare": true,
-        "weight": 20300,
+        "weight": 203,
         "acquired": false
       },
       {
@@ -1246,7 +3066,7 @@
         "description": "Solve 7 puzzles with a 100% score in Javascript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923232258458",
         "isSquare": true,
-        "weight": 20200,
+        "weight": 202,
         "acquired": false
       },
       {
@@ -1256,7 +3076,7 @@
         "description": "Solve 7 puzzles with a 100% score in TypeScript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=38822960533019",
         "isSquare": true,
-        "weight": 20200,
+        "weight": 202,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1267,7 +3087,7 @@
         "description": "Solve 7 puzzles with a 100% score in ObjectiveC",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923316393564",
         "isSquare": true,
-        "weight": 20100,
+        "weight": 201,
         "acquired": false
       },
       {
@@ -1277,7 +3097,7 @@
         "description": "Solve 7 puzzles with a 100% score in C++",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922913444746",
         "isSquare": true,
-        "weight": 20000,
+        "weight": 200,
         "acquired": false
       },
       {
@@ -1287,7 +3107,7 @@
         "description": "End 500 games of Clash of Code",
         "image": "https://static.codingame.com/servlet/fileservlet?id=31707449687580",
         "isSquare": true,
-        "weight": 20000,
+        "weight": 200,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1298,7 +3118,7 @@
         "description": "Solve 7 puzzles with a 100% score in Swift",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448507593039",
         "isSquare": true,
-        "weight": 19901,
+        "weight": 199,
         "acquired": false
       },
       {
@@ -1308,7 +3128,7 @@
         "description": "Solve 7 puzzles with a 100% score in C",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922833214448",
         "isSquare": true,
-        "weight": 19900,
+        "weight": 199,
         "acquired": false
       },
       {
@@ -1318,7 +3138,7 @@
         "description": "Solve 7 puzzles with a 100% score in D",
         "image": "https://static.codingame.com/servlet/fileservlet?id=34889081979437",
         "isSquare": true,
-        "weight": 19900,
+        "weight": 199,
         "acquired": false
       },
       {
@@ -1328,7 +3148,7 @@
         "description": "Solve 7 puzzles with a 100% score in Perl",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923436465875",
         "isSquare": true,
-        "weight": 19700,
+        "weight": 197,
         "acquired": false
       },
       {
@@ -1338,7 +3158,7 @@
         "description": "Solve 7 puzzles with a 100% score in Ruby",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923596061176",
         "isSquare": true,
-        "weight": 19500,
+        "weight": 195,
         "acquired": false
       },
       {
@@ -1348,7 +3168,7 @@
         "description": "Solve 7 puzzles with a 100% score in Rust",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448461365931",
         "isSquare": true,
-        "weight": 19401,
+        "weight": 194,
         "acquired": false
       },
       {
@@ -1358,7 +3178,7 @@
         "description": "Solve 7 puzzles with a 100% score in Kotlin",
         "image": "https://static.codingame.com/servlet/fileservlet?id=14440024271852",
         "isSquare": true,
-        "weight": 19400,
+        "weight": 194,
         "acquired": false
       },
       {
@@ -1368,7 +3188,7 @@
         "description": "Solve 7 puzzles with a 100% score in Bash",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922792210588",
         "isSquare": true,
-        "weight": 19400,
+        "weight": 194,
         "acquired": false
       },
       {
@@ -1378,7 +3198,7 @@
         "description": "Solve 7 puzzles with a 100% score in Dart",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922993474349",
         "isSquare": true,
-        "weight": 19300,
+        "weight": 193,
         "acquired": false
       },
       {
@@ -1388,7 +3208,7 @@
         "description": "Solve 7 puzzles with a 100% score in Scala",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923638971637",
         "isSquare": true,
-        "weight": 19200,
+        "weight": 192,
         "acquired": false
       },
       {
@@ -1398,7 +3218,7 @@
         "description": "Solve 7 puzzles with a 100% score in VB.NET",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923678201740",
         "isSquare": true,
-        "weight": 19100,
+        "weight": 191,
         "acquired": false
       },
       {
@@ -1408,7 +3228,7 @@
         "description": "Solve 7 puzzles with a 100% score in Pascal",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923391586635",
         "isSquare": true,
-        "weight": 19000,
+        "weight": 190,
         "acquired": false
       },
       {
@@ -1418,7 +3238,7 @@
         "description": "Solve 7 puzzles with a 100% score in OCaml",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923350550066",
         "isSquare": true,
-        "weight": 18900,
+        "weight": 189,
         "acquired": false
       },
       {
@@ -1428,7 +3248,7 @@
         "description": "Solve 7 puzzles with a 100% score in Lua",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923273567659",
         "isSquare": true,
-        "weight": 18800,
+        "weight": 188,
         "acquired": false
       },
       {
@@ -1438,7 +3258,7 @@
         "description": "Solve 7 puzzles with a 100% score in Haskell",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923153363742",
         "isSquare": true,
-        "weight": 18700,
+        "weight": 187,
         "acquired": false
       },
       {
@@ -1448,7 +3268,7 @@
         "description": "Solve 7 puzzles with a 100% score in Groovy",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923116307783",
         "isSquare": true,
-        "weight": 18600,
+        "weight": 186,
         "acquired": false
       },
       {
@@ -1458,7 +3278,7 @@
         "description": "Solve 7 puzzles with a 100% score in Go",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923076998706",
         "isSquare": true,
-        "weight": 18500,
+        "weight": 185,
         "acquired": false
       },
       {
@@ -1468,7 +3288,7 @@
         "description": "Solve 7 puzzles with a 100% score in F#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923032176685",
         "isSquare": true,
-        "weight": 18400,
+        "weight": 184,
         "acquired": false
       },
       {
@@ -1478,7 +3298,7 @@
         "description": "Solve 7 puzzles with a 100% score in Clojure",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922955358841",
         "isSquare": true,
-        "weight": 18300,
+        "weight": 183,
         "acquired": false
       },
       {
@@ -1488,7 +3308,7 @@
         "description": "Finish the 8th test of puzzle \"Skynet - The Bridge\" with 4 remaining bikes (with a 100% score)",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925229096052",
         "isSquare": true,
-        "weight": 18000,
+        "weight": 180,
         "acquired": false
       },
       {
@@ -1498,7 +3318,7 @@
         "description": "Reach a 100% score on Mars Lander - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924738619616",
         "isSquare": true,
-        "weight": 17900,
+        "weight": 179,
         "acquired": false
       },
       {
@@ -1508,7 +3328,7 @@
         "description": "Reach a 100% score on Vox Codei - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925012031771",
         "isSquare": true,
-        "weight": 17800,
+        "weight": 178,
         "acquired": false
       },
       {
@@ -1518,7 +3338,7 @@
         "description": "Reach a 100% score on Power of Thor - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924785357433",
         "isSquare": true,
-        "weight": 17700,
+        "weight": 177,
         "acquired": false
       },
       {
@@ -1528,7 +3348,7 @@
         "description": "Reach a 100% score on TAN Network puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924912429464",
         "isSquare": true,
-        "weight": 17600,
+        "weight": 176,
         "acquired": false
       },
       {
@@ -1538,7 +3358,7 @@
         "description": "Reach a 100% score on Surface puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924909067153",
         "isSquare": true,
-        "weight": 17500,
+        "weight": 175,
         "acquired": false
       },
       {
@@ -1548,7 +3368,7 @@
         "description": "Reach a 100% score on Super Computer puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924891098911",
         "isSquare": true,
-        "weight": 17400,
+        "weight": 174,
         "acquired": false
       },
       {
@@ -1558,7 +3378,7 @@
         "description": "Reach a 100% score on Winamax Open Challenge after 2016.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925032048027",
         "isSquare": true,
-        "weight": 17301,
+        "weight": 173,
         "acquired": false
       },
       {
@@ -1568,7 +3388,7 @@
         "description": "Reach a 100% score on Death First Search - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924862637776",
         "isSquare": true,
-        "weight": 17300,
+        "weight": 173,
         "acquired": false
       },
       {
@@ -1578,7 +3398,7 @@
         "description": "Reach a 100% score on The Bridge - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924848524064",
         "isSquare": true,
-        "weight": 17200,
+        "weight": 172,
         "acquired": false
       },
       {
@@ -1588,7 +3408,7 @@
         "description": "Reach a 100% score on Genome Sequencing puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924514758045",
         "isSquare": true,
-        "weight": 17100,
+        "weight": 171,
         "acquired": false
       },
       {
@@ -1598,7 +3418,7 @@
         "description": "Solve \"Roller coaster\" puzzle in Clojure and get a 100% score.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925202773697",
         "isSquare": true,
-        "weight": 17000,
+        "weight": 170,
         "acquired": false
       },
       {
@@ -1608,7 +3428,7 @@
         "description": "Reach a 100% score on Roller Coaster puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924792262136",
         "isSquare": true,
-        "weight": 16900,
+        "weight": 169,
         "acquired": false
       },
       {
@@ -1618,7 +3438,7 @@
         "description": "Reach a 100% score on The Labyrinth puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924670178432",
         "isSquare": true,
-        "weight": 16800,
+        "weight": 168,
         "acquired": false
       },
       {
@@ -1628,7 +3448,7 @@
         "description": "Reach a 100% score on The Fall - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924968692241",
         "isSquare": true,
-        "weight": 16700,
+        "weight": 167,
         "acquired": false
       },
       {
@@ -1638,7 +3458,7 @@
         "description": "Reach a 100% score on Don't Panic - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924639048315",
         "isSquare": true,
-        "weight": 16600,
+        "weight": 166,
         "acquired": false
       },
       {
@@ -1648,7 +3468,7 @@
         "description": "Reach a 100% score on CGX Formatter puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924563610651",
         "isSquare": true,
-        "weight": 16500,
+        "weight": 165,
         "acquired": false
       },
       {
@@ -1658,7 +3478,7 @@
         "description": "Reach a 100% score on Blunder - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924541304630",
         "isSquare": true,
-        "weight": 16400,
+        "weight": 164,
         "acquired": false
       },
       {
@@ -1668,7 +3488,7 @@
         "description": "Reach a 100% score on Blunder - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924558622241",
         "isSquare": true,
-        "weight": 16300,
+        "weight": 163,
         "acquired": false
       },
       {
@@ -1678,7 +3498,7 @@
         "description": "Reach a 100% score on There is no Spoon - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924990166438",
         "isSquare": true,
-        "weight": 16200,
+        "weight": 162,
         "acquired": false
       },
       {
@@ -1688,7 +3508,7 @@
         "description": "Reach a 50% score on Vox Codei - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924496018024",
         "isSquare": true,
-        "weight": 16100,
+        "weight": 161,
         "acquired": false
       },
       {
@@ -1698,7 +3518,7 @@
         "description": "Reach a 50% score on Shadows of the Knight - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924297075857",
         "isSquare": true,
-        "weight": 16000,
+        "weight": 160,
         "acquired": false
       },
       {
@@ -1708,7 +3528,7 @@
         "description": "Reach a 50% score on The Resistance puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924479625087",
         "isSquare": true,
-        "weight": 15900,
+        "weight": 159,
         "acquired": false
       },
       {
@@ -1718,7 +3538,7 @@
         "description": "Reach a 50% score on Music Scores puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924097734874",
         "isSquare": true,
-        "weight": 15800,
+        "weight": 158,
         "acquired": false
       },
       {
@@ -1728,7 +3548,7 @@
         "description": "Reach a 50% score on Nintendo Open Challenge.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924228486249",
         "isSquare": true,
-        "weight": 15700,
+        "weight": 157,
         "acquired": false
       },
       {
@@ -1738,7 +3558,7 @@
         "description": "Reach a 50% score on Mars Lander - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924209910382",
         "isSquare": true,
-        "weight": 15600,
+        "weight": 156,
         "acquired": false
       },
       {
@@ -1748,7 +3568,7 @@
         "description": "Reach a 50% score on The Fall - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924443187156",
         "isSquare": true,
-        "weight": 15500,
+        "weight": 155,
         "acquired": false
       },
       {
@@ -1758,7 +3578,7 @@
         "description": "Reach a 50% score on Vox Codei - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924481622385",
         "isSquare": true,
-        "weight": 15400,
+        "weight": 154,
         "acquired": false
       },
       {
@@ -1768,7 +3588,7 @@
         "description": "Reach a 50% score on Power of Thor - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924255089436",
         "isSquare": true,
-        "weight": 15300,
+        "weight": 153,
         "acquired": false
       },
       {
@@ -1778,7 +3598,7 @@
         "description": "Reach a 50% score on TAN Network puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924382714167",
         "isSquare": true,
-        "weight": 15200,
+        "weight": 152,
         "acquired": false
       },
       {
@@ -1788,7 +3608,7 @@
         "description": "Reach a 50% score on Surface puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924371740421",
         "isSquare": true,
-        "weight": 15100,
+        "weight": 151,
         "acquired": false
       },
       {
@@ -1798,7 +3618,7 @@
         "description": "Reach a 50% score on Super Computer puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924365606452",
         "isSquare": true,
-        "weight": 15000,
+        "weight": 150,
         "acquired": false
       },
       {
@@ -1808,7 +3628,7 @@
         "description": "Reach a 50% score on Winamax Open Challenge after 2016.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924507038929",
         "isSquare": true,
-        "weight": 14901,
+        "weight": 149,
         "acquired": false
       },
       {
@@ -1818,7 +3638,7 @@
         "description": "Reach a 50% score on Death First Search - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924336235196",
         "isSquare": true,
-        "weight": 14900,
+        "weight": 149,
         "acquired": false
       },
       {
@@ -1828,7 +3648,7 @@
         "description": "Reach a 50% score on The Bridge - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924319210790",
         "isSquare": true,
-        "weight": 14800,
+        "weight": 148,
         "acquired": false
       },
       {
@@ -1838,7 +3658,7 @@
         "description": "Reach a 50% score on Genome Sequencing puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923999661126",
         "isSquare": true,
-        "weight": 14700,
+        "weight": 147,
         "acquired": false
       },
       {
@@ -1848,7 +3668,7 @@
         "description": "Reach a 50% score on Roller Coaster puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924264084067",
         "isSquare": true,
-        "weight": 14600,
+        "weight": 146,
         "acquired": false
       },
       {
@@ -1858,7 +3678,7 @@
         "description": "Reach a 50% score on The Labyrinth puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924157578054",
         "isSquare": true,
-        "weight": 14500,
+        "weight": 145,
         "acquired": false
       },
       {
@@ -1868,7 +3688,7 @@
         "description": "Reach a 50% score on The Fall - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924437912787",
         "isSquare": true,
-        "weight": 14400,
+        "weight": 144,
         "acquired": false
       },
       {
@@ -1878,7 +3698,7 @@
         "description": "Reach a 50% score on Don't Panic - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924113917458",
         "isSquare": true,
-        "weight": 14300,
+        "weight": 143,
         "acquired": false
       },
       {
@@ -1888,7 +3708,7 @@
         "description": "Reach a 50% score on CGX Formatter puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924043097258",
         "isSquare": true,
-        "weight": 14200,
+        "weight": 142,
         "acquired": false
       },
       {
@@ -1898,7 +3718,7 @@
         "description": "Reach a 50% score on Blunder - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924027037794",
         "isSquare": true,
-        "weight": 14100,
+        "weight": 141,
         "acquired": false
       },
       {
@@ -1908,7 +3728,7 @@
         "description": "Reach a 50% score on Blunder - Episode 3 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924038437564",
         "isSquare": true,
-        "weight": 14000,
+        "weight": 140,
         "acquired": false
       },
       {
@@ -1918,7 +3738,7 @@
         "description": "Reach a 50% score on There is no Spoon - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924464897766",
         "isSquare": true,
-        "weight": 13900,
+        "weight": 139,
         "acquired": false
       },
       {
@@ -1928,7 +3748,7 @@
         "description": "Solve 100% of Mars Lander - Level 2 with at least 400l of fuel left on the 5th validation test.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925147785244",
         "isSquare": true,
-        "weight": 13800,
+        "weight": 138,
         "acquired": false
       },
       {
@@ -1938,7 +3758,7 @@
         "description": "Finish the 4th test of the \"Skynet: the virus\" puzzle with 50 or more remaining links and get a 100% score.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925237463466",
         "isSquare": true,
-        "weight": 13700,
+        "weight": 137,
         "acquired": false
       },
       {
@@ -1948,7 +3768,7 @@
         "description": "Ten of your invited friends have registered",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923727078419",
         "isSquare": true,
-        "weight": 13600,
+        "weight": 136,
         "acquired": false
       },
       {
@@ -1958,7 +3778,7 @@
         "description": "Submit your code 1000 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925267301420",
         "isSquare": true,
-        "weight": 13500,
+        "weight": 135,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1969,7 +3789,7 @@
         "description": "Get 50 likes or more on your total forum posts",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3349971587953",
         "isSquare": true,
-        "weight": 13400,
+        "weight": 134,
         "acquired": false
       },
       {
@@ -1979,7 +3799,7 @@
         "description": "Run your code 10,000 times in the IDE",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925193318314",
         "isSquare": true,
-        "weight": 13300,
+        "weight": 133,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -1990,7 +3810,7 @@
         "description": "Participate 9 times in the ranking of puzzle solutions.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=65804067754888",
         "isSquare": true,
-        "weight": 13250,
+        "weight": 132,
         "acquired": false
       },
       {
@@ -2000,7 +3820,7 @@
         "description": "Solve 3 puzzles with a 100% score in PHP",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923468852858",
         "isSquare": true,
-        "weight": 13200,
+        "weight": 132,
         "acquired": false
       },
       {
@@ -2010,7 +3830,7 @@
         "description": "Solve 3 puzzles with a 100% score in Java",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923187277315",
         "isSquare": true,
-        "weight": 13100,
+        "weight": 131,
         "acquired": false
       },
       {
@@ -2020,7 +3840,7 @@
         "description": "Solve 3 puzzles with a 100% score in C#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922868721150",
         "isSquare": true,
-        "weight": 13000,
+        "weight": 130,
         "acquired": false
       },
       {
@@ -2030,7 +3850,7 @@
         "description": "Solve 3 puzzles with a 100% score in TypeScript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=41971289853037",
         "isSquare": true,
-        "weight": 12900,
+        "weight": 129,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -2041,7 +3861,7 @@
         "description": "Solve 3 puzzles with a 100% score in Javascript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923222645728",
         "isSquare": true,
-        "weight": 12900,
+        "weight": 129,
         "acquired": false
       },
       {
@@ -2051,7 +3871,7 @@
         "description": "Solve 3 puzzles with a 100% score in ObjectiveC",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923300564116",
         "isSquare": true,
-        "weight": 12800,
+        "weight": 128,
         "acquired": false
       },
       {
@@ -2061,7 +3881,7 @@
         "description": "Solve 3 puzzles with a 100% score in C++",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922907205912",
         "isSquare": true,
-        "weight": 12700,
+        "weight": 127,
         "acquired": false
       },
       {
@@ -2071,7 +3891,7 @@
         "description": "Solve 3 puzzles with a 100% score in Swift",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448494287619",
         "isSquare": true,
-        "weight": 12601,
+        "weight": 126,
         "acquired": false
       },
       {
@@ -2081,7 +3901,7 @@
         "description": "Solve 3 puzzles with a 100% score in D",
         "image": "https://static.codingame.com/servlet/fileservlet?id=34889068537748",
         "isSquare": true,
-        "weight": 12600,
+        "weight": 126,
         "acquired": false
       },
       {
@@ -2091,7 +3911,7 @@
         "description": "Solve 3 puzzles with a 100% score in C",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922827728944",
         "isSquare": true,
-        "weight": 12600,
+        "weight": 126,
         "acquired": false
       },
       {
@@ -2101,7 +3921,7 @@
         "description": "Solve 3 puzzles with a 100% score in Perl",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923427350844",
         "isSquare": true,
-        "weight": 12400,
+        "weight": 124,
         "acquired": false
       },
       {
@@ -2111,7 +3931,7 @@
         "description": "Solve 3 puzzles with a 100% score in Ruby",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923582607960",
         "isSquare": true,
-        "weight": 12200,
+        "weight": 122,
         "acquired": false
       },
       {
@@ -2121,7 +3941,7 @@
         "description": "Solve 3 puzzles with a 100% score in Rust",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448453567276",
         "isSquare": true,
-        "weight": 12101,
+        "weight": 121,
         "acquired": false
       },
       {
@@ -2131,7 +3951,7 @@
         "description": "Solve 3 puzzles with a 100% score in Bash",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922789070841",
         "isSquare": true,
-        "weight": 12100,
+        "weight": 121,
         "acquired": false
       },
       {
@@ -2141,7 +3961,7 @@
         "description": "Solve 3 puzzles with a 100% score in Kotlin",
         "image": "https://static.codingame.com/servlet/fileservlet?id=14440009897937",
         "isSquare": true,
-        "weight": 12100,
+        "weight": 121,
         "acquired": false
       },
       {
@@ -2151,7 +3971,7 @@
         "description": "Solve 3 puzzles with a 100% score in Dart",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922985198974",
         "isSquare": true,
-        "weight": 12000,
+        "weight": 120,
         "acquired": false
       },
       {
@@ -2161,7 +3981,7 @@
         "description": "Solve 3 puzzles with a 100% score in Scala",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923627937486",
         "isSquare": true,
-        "weight": 11900,
+        "weight": 119,
         "acquired": false
       },
       {
@@ -2171,7 +3991,7 @@
         "description": "Solve 3 puzzles with a 100% score in VB.NET",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923663258706",
         "isSquare": true,
-        "weight": 11800,
+        "weight": 118,
         "acquired": false
       },
       {
@@ -2181,7 +4001,7 @@
         "description": "Solve 3 puzzles with a 100% score in Pascal",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923385388990",
         "isSquare": true,
-        "weight": 11700,
+        "weight": 117,
         "acquired": false
       },
       {
@@ -2191,7 +4011,7 @@
         "description": "Solve 3 puzzles with a 100% score in OCaml",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923343797228",
         "isSquare": true,
-        "weight": 11600,
+        "weight": 116,
         "acquired": false
       },
       {
@@ -2201,7 +4021,7 @@
         "description": "Solve 3 puzzles with a 100% score in Lua",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923262711893",
         "isSquare": true,
-        "weight": 11500,
+        "weight": 115,
         "acquired": false
       },
       {
@@ -2211,7 +4031,7 @@
         "description": "Solve 3 puzzles with a 100% score in Haskell",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923144102811",
         "isSquare": true,
-        "weight": 11400,
+        "weight": 114,
         "acquired": false
       },
       {
@@ -2221,7 +4041,7 @@
         "description": "Solve 3 puzzles with a 100% score in Groovy",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923107796957",
         "isSquare": true,
-        "weight": 11300,
+        "weight": 113,
         "acquired": false
       },
       {
@@ -2231,7 +4051,7 @@
         "description": "Solve 3 puzzles with a 100% score in Go",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923064410889",
         "isSquare": true,
-        "weight": 11200,
+        "weight": 112,
         "acquired": false
       },
       {
@@ -2241,7 +4061,7 @@
         "description": "Solve 3 puzzles with a 100% score in F#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923021087340",
         "isSquare": true,
-        "weight": 10400,
+        "weight": 104,
         "acquired": false
       },
       {
@@ -2251,7 +4071,7 @@
         "description": "Solve 3 puzzles with a 100% score in Clojure",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922947167973",
         "isSquare": true,
-        "weight": 10300,
+        "weight": 103,
         "acquired": false
       },
       {
@@ -2261,7 +4081,7 @@
         "description": "Reach a 100% score using five different programming languages on any combination of puzzles",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923957894227",
         "isSquare": true,
-        "weight": 10200,
+        "weight": 102,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -2272,7 +4092,7 @@
         "description": "Start three events",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923844695335",
         "isSquare": true,
-        "weight": 10000,
+        "weight": 100,
         "acquired": true,
         "acquisitionDate": "1970-01-01T00:00:00.000Z"
       },
@@ -2283,7 +4103,7 @@
         "description": "Reach a 100% score on Mayan Calculation puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924688545296",
         "isSquare": true,
-        "weight": 9900,
+        "weight": 99,
         "acquired": false
       },
       {
@@ -2293,7 +4113,7 @@
         "description": "Reach a 100% score on The Gift puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924601537025",
         "isSquare": true,
-        "weight": 9800,
+        "weight": 98,
         "acquired": false
       },
       {
@@ -2303,7 +4123,7 @@
         "description": "Reach a 100% score on Scrabble puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924805336908",
         "isSquare": true,
-        "weight": 9700,
+        "weight": 97,
         "acquired": false
       },
       {
@@ -2313,7 +4133,7 @@
         "description": "Reach a 100% score on Blunder - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924533904605",
         "isSquare": true,
-        "weight": 9600,
+        "weight": 96,
         "acquired": false
       },
       {
@@ -2323,7 +4143,7 @@
         "description": "Reach a 100% score on Dwarfs standing on the shoulders of giants puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924649040416",
         "isSquare": true,
-        "weight": 9500,
+        "weight": 95,
         "acquired": false
       },
       {
@@ -2333,7 +4153,7 @@
         "description": "Reach a 100% score on Telephone Numbers puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924930963365",
         "isSquare": true,
-        "weight": 9400,
+        "weight": 94,
         "acquired": false
       },
       {
@@ -2343,7 +4163,7 @@
         "description": "Reach a 100% score on Conway Sequence puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924588228097",
         "isSquare": true,
-        "weight": 9300,
+        "weight": 93,
         "acquired": false
       },
       {
@@ -2353,7 +4173,7 @@
         "description": "Reach a 100% score on The Fall - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924959890179",
         "isSquare": true,
-        "weight": 9100,
+        "weight": 91,
         "acquired": false
       },
       {
@@ -2363,7 +4183,7 @@
         "description": "Reach a 100% score on Mars Lander - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924718915649",
         "isSquare": true,
-        "weight": 8800,
+        "weight": 88,
         "acquired": false
       },
       {
@@ -2373,7 +4193,7 @@
         "description": "Reach a 100% score on War.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925032048027",
         "isSquare": true,
-        "weight": 8600,
+        "weight": 86,
         "acquired": false
       },
       {
@@ -2383,7 +4203,7 @@
         "description": "Reach a 50% score on Mayan Calculation puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924166200052",
         "isSquare": true,
-        "weight": 8300,
+        "weight": 83,
         "acquired": false
       },
       {
@@ -2393,7 +4213,7 @@
         "description": "Reach a 50% score on The Gift puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924086425491",
         "isSquare": true,
-        "weight": 8200,
+        "weight": 82,
         "acquired": false
       },
       {
@@ -2403,7 +4223,7 @@
         "description": "Reach a 50% score on Scrabble puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924272451822",
         "isSquare": true,
-        "weight": 8100,
+        "weight": 81,
         "acquired": false
       },
       {
@@ -2413,7 +4233,7 @@
         "description": "Reach a 50% score on Blunder - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924017198530",
         "isSquare": true,
-        "weight": 8000,
+        "weight": 80,
         "acquired": false
       },
       {
@@ -2423,7 +4243,7 @@
         "description": "Reach a 50% score on Dwarfs standing on the shoulders of giants puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924127199348",
         "isSquare": true,
-        "weight": 7900,
+        "weight": 79,
         "acquired": false
       },
       {
@@ -2433,7 +4253,7 @@
         "description": "Reach a 50% score on Telephone Numbers puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924409680378",
         "isSquare": true,
-        "weight": 7800,
+        "weight": 78,
         "acquired": false
       },
       {
@@ -2443,7 +4263,7 @@
         "description": "Reach a 50% score on Conway Sequence puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924061033646",
         "isSquare": true,
-        "weight": 7700,
+        "weight": 77,
         "acquired": false
       },
       {
@@ -2453,7 +4273,7 @@
         "description": "Reach a 50% score on The Fall - Episode 1 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924427268604",
         "isSquare": true,
-        "weight": 7500,
+        "weight": 75,
         "acquired": false
       },
       {
@@ -2463,7 +4283,7 @@
         "description": "Reach a 50% score on Mars Lander - Episode 2 puzzle.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924195124734",
         "isSquare": true,
-        "weight": 7200,
+        "weight": 72,
         "acquired": false
       },
       {
@@ -2473,7 +4293,7 @@
         "description": "Reach a 50% score on War.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1924507038929",
         "isSquare": true,
-        "weight": 7000,
+        "weight": 70,
         "acquired": false
       },
       {
@@ -2483,7 +4303,7 @@
         "description": "Solve \"Horse-racing Duals\" problem in Bash and get a 100% score.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925113228778",
         "isSquare": true,
-        "weight": 6700,
+        "weight": 67,
         "acquired": false
       },
       {
@@ -2493,7 +4313,7 @@
         "description": "Five of your invited friends have registered",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923718108617",
         "isSquare": true,
-        "weight": 6500,
+        "weight": 65,
         "acquired": false
       },
       {
@@ -2503,7 +4323,7 @@
         "description": "Get 10 likes or more on your total forum posts",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3349937778069",
         "isSquare": true,
-        "weight": 6200,
+        "weight": 62,
         "acquired": false
       },
       {
@@ -2513,7 +4333,7 @@
         "description": "Participate 3 times in the ranking of puzzle solutions.",
         "image": "https://static.codingame.com/servlet/fileservlet?id=65804029786119",
         "isSquare": true,
-        "weight": 5905,
+        "weight": 59,
         "acquired": false
       },
       {
@@ -2523,7 +4343,7 @@
         "description": "Solve 1 puzzle with a 100% score in PHP",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923451912010",
         "isSquare": true,
-        "weight": 5900,
+        "weight": 59,
         "acquired": false
       },
       {
@@ -2533,7 +4353,7 @@
         "description": "Solve 1 puzzle with a 100% score in Java",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923174268302",
         "isSquare": true,
-        "weight": 5800,
+        "weight": 58,
         "acquired": false
       },
       {
@@ -2543,7 +4363,7 @@
         "description": "Solve 1 puzzle with a 100% score in C#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922852114275",
         "isSquare": true,
-        "weight": 5700,
+        "weight": 57,
         "acquired": false
       },
       {
@@ -2553,7 +4373,7 @@
         "description": "Solve 1 puzzle with a 100% score in Javascript",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923218680795",
         "isSquare": true,
-        "weight": 5600,
+        "weight": 56,
         "acquired": false
       },
       {
@@ -2563,7 +4383,7 @@
         "description": "Solve 1 puzzle with a 100% score in ObjectiveC",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923299469434",
         "isSquare": true,
-        "weight": 5500,
+        "weight": 55,
         "acquired": false
       },
       {
@@ -2573,7 +4393,7 @@
         "description": "Solve 1 puzzle with a 100% score in C++",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922897874097",
         "isSquare": true,
-        "weight": 5400,
+        "weight": 54,
         "acquired": false
       },
       {
@@ -2583,7 +4403,7 @@
         "description": "Solve 1 puzzles with a 100% score in Swift",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448486021430",
         "isSquare": true,
-        "weight": 5301,
+        "weight": 53,
         "acquired": false
       },
       {
@@ -2593,7 +4413,7 @@
         "description": "Solve 1 puzzle with a 100% score in C",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922810467374",
         "isSquare": true,
-        "weight": 5300,
+        "weight": 53,
         "acquired": false
       },
       {
@@ -2603,7 +4423,7 @@
         "description": "Solve 1 puzzle with a 100% score in D",
         "image": "https://static.codingame.com/servlet/fileservlet?id=34888944541582",
         "isSquare": true,
-        "weight": 5300,
+        "weight": 53,
         "acquired": false
       },
       {
@@ -2613,7 +4433,7 @@
         "description": "Solve 1 puzzle with a 100% score in Perl",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923411675114",
         "isSquare": true,
-        "weight": 5100,
+        "weight": 51,
         "acquired": false
       },
       {
@@ -2623,7 +4443,7 @@
         "description": "Solve 1 puzzle with a 100% score in Ruby",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923570006014",
         "isSquare": true,
-        "weight": 4900,
+        "weight": 49,
         "acquired": false
       },
       {
@@ -2633,7 +4453,7 @@
         "description": "Solve 1 puzzles with a 100% score in Rust",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3448386112815",
         "isSquare": true,
-        "weight": 4801,
+        "weight": 48,
         "acquired": false
       },
       {
@@ -2643,7 +4463,7 @@
         "description": "Solve 1 puzzle with a 100% score in Kotlin",
         "image": "https://static.codingame.com/servlet/fileservlet?id=14439995971453",
         "isSquare": true,
-        "weight": 4800,
+        "weight": 48,
         "acquired": false
       },
       {
@@ -2653,7 +4473,7 @@
         "description": "Solve 1 puzzle with a 100% score in Bash",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922777448098",
         "isSquare": true,
-        "weight": 4800,
+        "weight": 48,
         "acquired": false
       },
       {
@@ -2663,7 +4483,7 @@
         "description": "Solve 1 puzzle with a 100% score in Dart",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922977239393",
         "isSquare": true,
-        "weight": 4700,
+        "weight": 47,
         "acquired": false
       },
       {
@@ -2673,7 +4493,7 @@
         "description": "Solve 1 puzzle with a 100% score in Scala",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923618198829",
         "isSquare": true,
-        "weight": 4600,
+        "weight": 46,
         "acquired": false
       },
       {
@@ -2683,7 +4503,7 @@
         "description": "Solve 1 puzzle with a 100% score in VB.NET",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923650430545",
         "isSquare": true,
-        "weight": 4500,
+        "weight": 45,
         "acquired": false
       },
       {
@@ -2693,7 +4513,7 @@
         "description": "Solve 1 puzzle with a 100% score in Pascal",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923372394285",
         "isSquare": true,
-        "weight": 4400,
+        "weight": 44,
         "acquired": false
       },
       {
@@ -2703,7 +4523,7 @@
         "description": "Solve 1 puzzle with a 100% score in OCaml",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923330878346",
         "isSquare": true,
-        "weight": 4300,
+        "weight": 43,
         "acquired": false
       },
       {
@@ -2713,7 +4533,7 @@
         "description": "Solve 1 puzzle with a 100% score in Lua",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923251688536",
         "isSquare": true,
-        "weight": 4200,
+        "weight": 42,
         "acquired": false
       },
       {
@@ -2723,7 +4543,7 @@
         "description": "Solve 1 puzzle with a 100% score in Haskell",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923136636621",
         "isSquare": true,
-        "weight": 4100,
+        "weight": 41,
         "acquired": false
       },
       {
@@ -2733,7 +4553,7 @@
         "description": "Solve 1 puzzle with a 100% score in Groovy",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923095114663",
         "isSquare": true,
-        "weight": 4000,
+        "weight": 40,
         "acquired": false
       },
       {
@@ -2743,7 +4563,7 @@
         "description": "Solve 1 puzzle with a 100% score in Go",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923059509090",
         "isSquare": true,
-        "weight": 3900,
+        "weight": 39,
         "acquired": false
       },
       {
@@ -2753,7 +4573,7 @@
         "description": "Solve 1 puzzle with a 100% score in F#",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923015202117",
         "isSquare": true,
-        "weight": 3800,
+        "weight": 38,
         "acquired": false
       },
       {
@@ -2763,7 +4583,7 @@
         "description": "Solve 1 puzzle with a 100% score in Clojure",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1922933286800",
         "isSquare": true,
-        "weight": 3700,
+        "weight": 37,
         "acquired": false
       },
       {
@@ -2773,7 +4593,7 @@
         "description": "Three of your invited friends have registered",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923706518630",
         "isSquare": true,
-        "weight": 900,
+        "weight": 9,
         "acquired": false
       },
       {
@@ -2783,7 +4603,7 @@
         "description": "Get 5 likes or more on your total forum posts",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3349961977406",
         "isSquare": true,
-        "weight": 800,
+        "weight": 8,
         "acquired": false
       },
       {
@@ -2793,7 +4613,7 @@
         "description": "One of your invited friends has registered",
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923696530821",
         "isSquare": true,
-        "weight": 300,
+        "weight": 3,
         "acquired": false
       },
       {
@@ -2803,9 +4623,15 @@
         "description": "Get 3 likes or more on your total forum posts",
         "image": "https://static.codingame.com/servlet/fileservlet?id=3349953268921",
         "isSquare": true,
-        "weight": 200,
+        "weight": 2,
         "acquired": false
       }
-    ]
+    ],
+    "pointsAcquired": 6078,
+    "pointsTotal": 35710,
+    "pointsPercentage": 17,
+    "badgesAcquired": 73,
+    "badgesTotal": 273,
+    "badgesPercentage": 26
   }
 ]
