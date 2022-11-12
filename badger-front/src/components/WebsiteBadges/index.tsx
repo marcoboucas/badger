@@ -1,5 +1,6 @@
 import { BadgeReport } from "@badger/common";
 import Chip from "@mui/material/Chip";
+import LinearProgress from "@mui/material/LinearProgress";
 import { useMemo } from "react";
 import BadgeCard from "../BadgeCard";
 import styles from "./WebsiteBadges.module.css";
@@ -10,9 +11,8 @@ interface WebsiteBadgesProps {
 
 const WebsiteBadges = (props: WebsiteBadgesProps) => {
   const { report, displayAvailable } = props;
-
   const badges = useMemo(() => {
-    return report.badges
+    const badges = report.badges
       .filter((x) => {
         return displayAvailable ? true : x.acquired;
       })
@@ -25,14 +25,28 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
         }
         return (b.weight ?? 0) - (a.weight ?? 0);
       });
+    return badges;
   }, [report, displayAvailable]);
 
   return (
     <div>
-      <h3 className={styles.title}>
-        {report.name}{" "}
-        <Chip label={`${report.badgesPercentage} %`} variant="outlined" />
-      </h3>
+      <div className={styles.header}>
+        <a href={report.website} style={{ textDecoration: "none" }}>
+          <h3 className={styles.title}>{report.name}</h3>
+        </a>
+        <Chip
+          label={`${report.badgesPercentage} %`}
+          variant="outlined"
+          sx={{ width: "4rem" }}
+        />
+        <div className={styles["progress-bar-container"]}>
+          <LinearProgress
+            color="primary"
+            variant="determinate"
+            value={report.badgesPercentage}
+          />
+        </div>
+      </div>
       <div className={styles.badges}>
         {badges.map((badge) => (
           <BadgeCard key={badge.name} badge={badge} />

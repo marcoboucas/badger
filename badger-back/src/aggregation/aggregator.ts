@@ -1,6 +1,6 @@
 import { BadgeReport, Connector } from '@badger/common';
 import { AllConfigurationsType } from './aggregation-types';
-import { GarminConnector } from './connectors';
+import { GarminConnector, TrailheadConnector } from './connectors';
 import { CodingameConnector } from './connectors/codingame/connector';
 
 export class Aggregator {
@@ -60,9 +60,12 @@ export class Aggregator {
         return new CodingameConnector(config);
       case 'garmin':
         return new GarminConnector(config);
+      case 'trailhead':
+        return new TrailheadConnector(config);
       default:
         // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-        throw new Error(`Unknown connector ${config}`);
+        console.error('Unknown connector: ', JSON.stringify(config));
+        throw new Error('Unknown connector');
     }
   }
 }

@@ -13,7 +13,7 @@ export default function ResponsiveAppBar() {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, marginLeft: 2 }}
+            sx={{ flexGrow: 1, marginLeft: 2, fontFamily: "Roboto" }}
           >
             Badger
           </Typography>

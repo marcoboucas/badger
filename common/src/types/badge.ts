@@ -12,7 +12,7 @@ interface BaseBadge {
 
 interface AcquiredBadge extends BaseBadge {
   acquired: true;
-  acquisitionDate: Date;
+  acquisitionDate: Date | null;
 }
 
 interface NotAcquiredBadge extends BaseBadge {

@@ -1,5 +1,83 @@
 [
   {
+    "name": "Trailhead",
+    "website": "https://trailhead.salesforce.com/",
+    "badges": [
+      {
+        "source": "trailhead",
+        "id": "02a95db8-d77d-9541-ce03-5443ee41f399",
+        "name": "Set Up Your Salesforce Mobile Developer Tools for Lightning Web Components",
+        "description": "Install developer tools to build Lightning web components for mobile.",
+        "image": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/projects/set-up-your-salesforce-mobile-developer-tools-for-lightning-web-components/650c45695c7482d36c7817822ca9d6e2_badge.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      },
+      {
+        "source": "trailhead",
+        "id": "02a95da0-6d1d-efc4-13bd-413c492807e2",
+        "name": "Lightning Web Components Basics",
+        "description": "Build reusable, performant components that follow modern web standards.",
+        "image": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lightning-web-components-basics/5cec7279d13ac36ab5ddbffae3035337_badge.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      },
+      {
+        "source": "trailhead",
+        "id": "02a95d43-33b9-0633-0c3b-e11f5daa7eed",
+        "name": "Set Up Your Lightning Web Components Developer Tools",
+        "description": "Install developer tools for building Lightning web components.",
+        "image": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/projects/set-up-your-lightning-web-components-developer-tools/3780b3e7c1271e0ba553c2599c0137d8_badge.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      },
+      {
+        "source": "trailhead",
+        "id": "02a95cfc-bb1e-e241-fed6-7c33161a22c2",
+        "name": "Quick Start: Lightning Web Components",
+        "description": "Set up your developer environment and create your first Lightning web component.",
+        "image": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/projects/quick-start-lightning-web-components/97fa54b90c579eaa8b4e63b80588679e_badge.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      },
+      {
+        "source": "trailhead",
+        "id": "02a95c62-62b4-8e95-82d2-2ee456486eae",
+        "name": "Trick or Trailhead VIII",
+        "description": "",
+        "image": "https://dfc-static-production.s3.amazonaws.com/resource/images/trailhead/badges/community/trailhead_community_trick_or_trailhead_viii.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      },
+      {
+        "source": "trailhead",
+        "id": "02a95c62-6218-26ed-8ac9-f0ce04ade0b5",
+        "name": "Trailhead and Trailblazer Community",
+        "description": "Learn, earn, and connect with Trailhead and Trailblazer Community.",
+        "image": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/trailhead_basics/11592ff48bc3b35bcd9945e6bde11319_badge.png",
+        "isSquare": true,
+        "weight": 1,
+        "acquired": true,
+        "acquisitionDate": null
+      }
+    ],
+    "pointsAcquired": 6,
+    "pointsTotal": 6,
+    "pointsPercentage": 100,
+    "badgesAcquired": 6,
+    "badgesTotal": 6,
+    "badgesPercentage": 100
+  },
+  {
     "name": "Garmin",
     "website": "https://connect.garmin.com/",
     "badges": [
