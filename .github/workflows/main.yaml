@@ -28,6 +28,7 @@ jobs:
         run: |
           (cd ./common && npm run build)
           (cd ./badger-front && npm run build)
+          (cp ./CNAME ./badger-front/build)
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
