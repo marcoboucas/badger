@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { Badge as BadgeComponent } from "@mui/material";
 import Tooltip, { tooltipClasses, TooltipProps } from "@mui/material/Tooltip";
 import clsx from "clsx";
+import { useState } from "react";
 import "./BadgeCard.css";
 interface BadgeCardProps {
   badge: Badge;
@@ -20,6 +21,7 @@ const CustomTooltip = styled(({ className, ...props }: TooltipProps) => (
 
 function BadgeCard(props: BadgeCardProps) {
   const { badge } = props;
+  const [showTooltip, setShowTooltip] = useState(false);
 
   return (
     <CustomTooltip
@@ -33,8 +35,11 @@ function BadgeCard(props: BadgeCardProps) {
           </p>
         </div>
       }
+      open={showTooltip}
+      onOpen={() => setShowTooltip(true)}
+      onClose={() => setShowTooltip(false)}
     >
-      <div className="container">
+      <div className="container" onClick={() => setShowTooltip(!showTooltip)}>
         <BadgeComponent
           badgeContent={badge.weight}
           color={badge.acquired ? "success" : "error"}
