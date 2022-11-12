@@ -45,6 +45,7 @@ function BadgeCard(props: BadgeCardProps) {
               "image",
               badge.acquired ? "image-acquired" : "image-available"
             )}
+            loading="lazy"
             src={badge.image}
             alt={badge.name}
           />

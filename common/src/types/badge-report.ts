@@ -4,7 +4,10 @@ export interface BadgeReport {
   name: string;
   website: string;
   badges: Badge[];
-  percentage: number;
+  badgesPercentage: number;
+  badgesAcquired: number;
+  badgesTotal: number;
+  pointsPercentage: number;
   pointsAcquired: number;
   pointsTotal: number;
 }

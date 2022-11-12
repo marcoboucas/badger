@@ -1814,7 +1814,10 @@
     ],
     "pointsAcquired": 63,
     "pointsTotal": 391,
-    "percentage": 16
+    "pointsPercentage": 16,
+    "badgesAcquired": 38,
+    "badgesTotal": 177,
+    "badgesPercentage": 21
   },
   {
     "name": "Codingame",
@@ -4626,6 +4629,9 @@
     ],
     "pointsAcquired": 6078,
     "pointsTotal": 35710,
-    "percentage": 17
+    "pointsPercentage": 17,
+    "badgesAcquired": 73,
+    "badgesTotal": 273,
+    "badgesPercentage": 26
   }
 ]

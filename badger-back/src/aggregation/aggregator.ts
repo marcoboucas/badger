@@ -26,6 +26,8 @@ export class Aggregator {
   ): Promise<BadgeReport> {
     const connector = this.getConnector(config);
     const badges = await connector.getBadges();
+
+    // Points
     const pointsAcquired = badges
       .filter((badge) => badge.acquired)
       .reduce((acc, badge) => acc + (badge.weight ?? 0), 0);
@@ -33,15 +35,22 @@ export class Aggregator {
       (acc, badge) => acc + (badge.weight ?? 0),
       0,
     );
-    const percentage = Math.floor((pointsAcquired / pointsTotal) * 100);
+    const pointsPercentage = Math.floor((pointsAcquired / pointsTotal) * 100);
 
+    // Badges
+    const badgesAcquired = badges.filter((badge) => badge.acquired).length;
+    const badgesTotal = badges.length;
+    const badgesPercentage = Math.floor((badgesAcquired / badgesTotal) * 100);
     return {
       name: connector.name,
       website: connector.website,
       badges,
       pointsAcquired,
       pointsTotal,
-      percentage,
+      pointsPercentage,
+      badgesAcquired,
+      badgesTotal,
+      badgesPercentage,
     };
   }
 
