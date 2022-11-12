@@ -12,7 +12,7 @@ import { clientsClaim } from "workbox-core";
 import { ExpirationPlugin } from "workbox-expiration";
 import { createHandlerBoundToURL, precacheAndRoute } from "workbox-precaching";
 import { registerRoute } from "workbox-routing";
-import { CacheFirst, StaleWhileRevalidate } from "workbox-strategies";
+import { NetworkFirst, StaleWhileRevalidate } from "workbox-strategies";
 
 declare const self: ServiceWorkerGlobalScope;
 
@@ -92,7 +92,7 @@ registerRoute(
   ({ url }) =>
     url.origin === self.location.origin && url.pathname.endsWith("badges.json"),
   // Customize this strategy as needed, e.g., by changing to CacheFirst.
-  new CacheFirst({
+  new NetworkFirst({
     cacheName: "badges",
   })
 );
