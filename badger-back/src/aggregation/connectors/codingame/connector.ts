@@ -42,7 +42,11 @@ export class CodingameConnector implements Connector {
         isSquare: true,
         weight: Math.floor(badge.weight / 100), // TOO BIG
       };
-      if (badge.progress > 0) {
+      if (
+        badge.completionTime !== undefined &&
+        badge.completionTime !== null &&
+        badge.completionTime !== 0
+      ) {
         return {
           ...baseBadge,
           acquired: true,

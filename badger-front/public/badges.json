@@ -2750,8 +2750,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923980068700",
         "isSquare": true,
         "weight": 230,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -2811,8 +2810,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=38823044854472",
         "isSquare": true,
         "weight": 226,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3032,8 +3030,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923864394396",
         "isSquare": true,
         "weight": 206,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3083,8 +3080,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923977125691",
         "isSquare": true,
         "weight": 206,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3094,8 +3090,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923859026951",
         "isSquare": true,
         "weight": 206,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3155,8 +3150,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=38822960533019",
         "isSquare": true,
         "weight": 202,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3186,8 +3180,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=31707449687580",
         "isSquare": true,
         "weight": 200,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3857,8 +3850,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925267301420",
         "isSquare": true,
         "weight": 135,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3878,8 +3870,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1925193318314",
         "isSquare": true,
         "weight": 133,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -3929,8 +3920,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=41971289853037",
         "isSquare": true,
         "weight": 129,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -4160,8 +4150,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923957894227",
         "isSquare": true,
         "weight": 102,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -4171,8 +4160,7 @@
         "image": "https://static.codingame.com/servlet/fileservlet?id=1923844695335",
         "isSquare": true,
         "weight": 100,
-        "acquired": true,
-        "acquisitionDate": "1970-01-01T00:00:00.000Z"
+        "acquired": false
       },
       {
         "source": "codingame",
@@ -4705,11 +4693,11 @@
         "acquired": false
       }
     ],
-    "pointsAcquired": 6078,
+    "pointsAcquired": 4003,
     "pointsTotal": 35710,
-    "pointsPercentage": 17,
-    "badgesAcquired": 73,
+    "pointsPercentage": 11,
+    "badgesAcquired": 61,
     "badgesTotal": 273,
-    "badgesPercentage": 26
+    "badgesPercentage": 22
   }
 ]
