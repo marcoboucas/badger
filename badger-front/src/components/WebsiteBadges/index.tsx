@@ -1,11 +1,12 @@
-import { BadgeReport } from "@badger/common";
+import { DataReport } from "@badger/common";
 import Chip from "@mui/material/Chip";
 import LinearProgress from "@mui/material/LinearProgress";
 import { useMemo } from "react";
 import BadgeCard from "../BadgeCard";
+import MetricCard from "../MetricCard";
 import styles from "./WebsiteBadges.module.css";
 interface WebsiteBadgesProps {
-  report: BadgeReport;
+  report: DataReport;
   displayAvailable: boolean;
 }
 
@@ -28,6 +29,11 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
     return badges;
   }, [report, displayAvailable]);
 
+  const metrics = useMemo(() => {
+    const metrics = report.metrics ?? [];
+    return metrics;
+  }, [report]);
+
   return (
     <div>
       <div className={styles.header}>
@@ -35,7 +41,7 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
           <h3 className={styles.title}>{report.name}</h3>
         </a>
         <Chip
-          label={`${report.badgesPercentage} %`}
+          label={`${report.badgesPercentage ?? 'N/A'} %`}
           variant="outlined"
           sx={{ width: "4rem" }}
         />
@@ -48,6 +54,9 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
         </div>
       </div>
       <div className={styles.badges}>
+        {metrics.map((metric) => (
+          <MetricCard key={metric.id} metric={metric} />
+        ))}
         {badges.map((badge) => (
           <BadgeCard key={badge.name} badge={badge} />
         ))}

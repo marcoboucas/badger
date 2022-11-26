@@ -1,1 +1,1 @@
-export type ConnectorType = "codingame" | "duolingo" | "garmin" | "trailhead";
+export type ConnectorType = "codingame" | "duolingo" | "garmin" | "trailhead" | "velib";

@@ -1,0 +1,6 @@
+.container {
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 8px;
+    -webkit-tap-highlight-color: transparent;
+}

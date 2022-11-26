@@ -4,3 +4,4 @@ export * from "./connector";
 export * from "./connector-config";
 export * from "./connector-types";
 export * from "./user";
+export * from "./metric";

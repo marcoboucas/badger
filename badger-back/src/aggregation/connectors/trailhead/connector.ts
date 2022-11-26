@@ -1,4 +1,4 @@
-import { Badge, Connector } from '@badger/common';
+import { Badge, Connector, Metric } from '@badger/common';
 import { TrailheadConfig } from './config';
 
 import { AxiosInstance } from 'axios';
@@ -32,7 +32,7 @@ export class TrailheadConnector implements Connector {
     this.config = config;
   }
 
-  public async getBadges(): Promise<Badge[]> {
+  private async getBadges(): Promise<Badge[]> {
     const response = await this.getAxiosInstance().post(
       this.url,
       this.buildQuery(this.config.userId, 100),
@@ -52,6 +52,17 @@ export class TrailheadConnector implements Connector {
         };
       },
     );
+  }
+
+  private async getMetrics(): Promise<Metric[]> {
+    return [];
+  }
+
+  public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {
+    return {
+      badges: await this.getBadges(),
+      metrics: await this.getMetrics(),
+    };
   }
 
   private buildQuery(userId: string, count: number = 100): any {

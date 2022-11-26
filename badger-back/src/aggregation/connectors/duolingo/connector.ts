@@ -1,4 +1,4 @@
-import { Badge, Connector } from '@badger/common';
+import { Badge, Connector, Metric } from '@badger/common';
 import { AxiosInstance } from 'axios';
 import { writeFileSync } from 'fs';
 import { axiosInstance } from '../axios-instance';
@@ -18,7 +18,7 @@ export class DuolingoConnector implements Connector {
     this.config = config;
   }
 
-  public async getBadges(): Promise<Badge[]> {
+  private async getBadges(): Promise<Badge[]> {
     const axios = this.getAxiosInstance();
 
     // Connect
@@ -36,6 +36,17 @@ export class DuolingoConnector implements Connector {
     console.log(response.data);
     writeFileSync('duolingo.json', JSON.stringify(response.data, null, 2));
     return [];
+  }
+
+  private async getMetrics(): Promise<Metric[]> {
+    return [];
+  }
+
+  public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {
+    return {
+      badges: await this.getBadges(),
+      metrics: await this.getMetrics(),
+    };
   }
 
   private getAxiosInstance(): AxiosInstance {

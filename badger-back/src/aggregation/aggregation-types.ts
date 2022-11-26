@@ -5,14 +5,18 @@ import {
   GarminConnector,
   TrailheadConfig,
   TrailheadConnector,
+  VelibConfig,
+  VelibConnector,
 } from './connectors';
 
 export type AllConfigurationsType =
   | CodingameConfig
   | GarminConfig
-  | TrailheadConfig;
+  | TrailheadConfig
+  | VelibConfig;
 
 export type AllConnectorsType =
   | CodingameConnector
   | GarminConnector
-  | TrailheadConnector;
+  | TrailheadConnector
+  | VelibConnector;

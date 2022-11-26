@@ -1,4 +1,4 @@
-import { Badge, Connector } from '@badger/common';
+import { Badge, Connector, Metric } from '@badger/common';
 import { CodingameConfig } from './config';
 
 import { AxiosInstance } from 'axios';
@@ -26,7 +26,7 @@ export class CodingameConnector implements Connector {
     this.config = config;
   }
 
-  public async getBadges(): Promise<Badge[]> {
+  private async getBadges(): Promise<Badge[]> {
     const response = await this.getAxiosInstance().post(
       `${this.baseUrl}${this.badgesUrl}`,
       `[${this.config.userId}]`,
@@ -59,6 +59,17 @@ export class CodingameConnector implements Connector {
         };
       }
     });
+  }
+
+  private async getMetrics(): Promise<Metric[]> {
+    return [] as Metric[];
+  }
+
+  public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {
+    return {
+      badges: await this.getBadges(),
+      metrics: await this.getMetrics(),
+    };
   }
 
   private getAxiosInstance(): AxiosInstance {

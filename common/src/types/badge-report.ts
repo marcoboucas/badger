@@ -1,9 +1,11 @@
 import { Badge } from "./badge";
+import {Metric} from "./metric";
 
-export interface BadgeReport {
+export interface DataReport {
   name: string;
   website: string;
   badges: Badge[];
+  metrics: Metric[];
   badgesPercentage: number;
   badgesAcquired: number;
   badgesTotal: number;

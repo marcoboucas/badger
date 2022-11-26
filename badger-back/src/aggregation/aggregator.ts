@@ -1,31 +1,35 @@
-import { BadgeReport, Connector } from '@badger/common';
+import { DataReport, Connector } from '@badger/common';
 import { AllConfigurationsType } from './aggregation-types';
-import { GarminConnector, TrailheadConnector } from './connectors';
+import {
+  GarminConnector,
+  TrailheadConnector,
+  VelibConnector,
+} from './connectors';
 import { CodingameConnector } from './connectors/codingame/connector';
 
 export class Aggregator {
   constructor(private readonly configurations: AllConfigurationsType[]) {}
 
-  public async getBadges(): Promise<BadgeReport[]> {
+  public async getData(): Promise<DataReport[]> {
     return (
       await Promise.all(
         this.configurations.map(async (config) => {
           try {
-            return await this.getBadgeReportFromConfig(config);
+            return await this.getDataReportFromConfig(config);
           } catch (e) {
             console.error(e);
             return null;
           }
         }),
       )
-    ).filter((x): x is BadgeReport => x !== null);
+    ).filter((x): x is DataReport => x !== null);
   }
 
-  private async getBadgeReportFromConfig(
+  private async getDataReportFromConfig(
     config: AllConfigurationsType,
-  ): Promise<BadgeReport> {
+  ): Promise<DataReport> {
     const connector = this.getConnector(config);
-    const badges = await connector.getBadges();
+    const { badges, metrics } = await connector.getData();
 
     // Points
     const pointsAcquired = badges
@@ -35,16 +39,20 @@ export class Aggregator {
       (acc, badge) => acc + (badge.weight ?? 0),
       0,
     );
-    const pointsPercentage = Math.floor((pointsAcquired / pointsTotal) * 100);
+    const pointsPercentage =
+      Math.floor((pointsAcquired / pointsTotal) * 100) ?? 0;
 
     // Badges
     const badgesAcquired = badges.filter((badge) => badge.acquired).length;
     const badgesTotal = badges.length;
-    const badgesPercentage = Math.floor((badgesAcquired / badgesTotal) * 100);
+    const badgesPercentage =
+      Math.floor((badgesAcquired / badgesTotal) * 100) ?? 0;
+
     return {
       name: connector.name,
       website: connector.website,
       badges,
+      metrics,
       pointsAcquired,
       pointsTotal,
       pointsPercentage,
@@ -62,6 +70,8 @@ export class Aggregator {
         return new GarminConnector(config);
       case 'trailhead':
         return new TrailheadConnector(config);
+      case 'velib':
+        return new VelibConnector(config);
       default:
         // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
         console.error('Unknown connector: ', JSON.stringify(config));

@@ -1,4 +1,4 @@
-import { BadgeReport } from "@badger/common";
+import { DataReport } from "@badger/common";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import { Typography } from "@mui/material";
 import ToggleButton from "@mui/material/ToggleButton";
@@ -8,7 +8,7 @@ import WebsiteBadges from "../../components/WebsiteBadges";
 import styles from "./BadgeList.module.css";
 
 const BadgeListPage = () => {
-  const [reports, setReports] = useState<BadgeReport[]>([]);
+  const [reports, setReports] = useState<DataReport[]>([]);
   const [displayAvailable, setDisplayAvailable] = useState(false);
 
   useEffect(() => {

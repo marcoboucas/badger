@@ -1,4 +1,4 @@
-import { Badge, Connector } from '@badger/common';
+import { Badge, Connector, Metric } from '@badger/common';
 import { GarminConnect } from 'garmin-connect';
 import { GarminConfig } from './config';
 
@@ -20,7 +20,7 @@ export class GarminConnector implements Connector {
     this.config = config;
   }
 
-  public async getBadges(): Promise<Badge[]> {
+  private async getBadges(): Promise<Badge[]> {
     const client = new GarminConnect();
     await client.login(this.config.login, this.config.password);
 
@@ -80,6 +80,17 @@ export class GarminConnector implements Connector {
         };
       })
       .filter((badge: Badge | null): badge is Badge => badge !== null);
+  }
+
+  private async getMetrics(): Promise<Metric[]> {
+    return [];
+  }
+
+  public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {
+    return {
+      badges: await this.getBadges(),
+      metrics: await this.getMetrics(),
+    };
   }
 
   private async getAccessToken(client: any): Promise<string> {

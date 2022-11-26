@@ -1,23 +1,13 @@
 import { Badge } from "@badger/common";
-import styled from "@emotion/styled";
 import { Badge as BadgeComponent } from "@mui/material";
-import Tooltip, { tooltipClasses, TooltipProps } from "@mui/material/Tooltip";
 import clsx from "clsx";
 import { useState } from "react";
 import "./BadgeCard.css";
+import CustomTooltip from "../CustomTooltip";
 interface BadgeCardProps {
   badge: Badge;
 }
 
-const CustomTooltip = styled(({ className, ...props }: TooltipProps) => (
-  <Tooltip {...props} classes={{ popper: className }} />
-))(({ theme }) => ({
-  [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: "#f5f5f9f5",
-    maxWidth: 220,
-    border: "1px solid #dadde9",
-  },
-}));
 
 function BadgeCard(props: BadgeCardProps) {
   const { badge } = props;
