@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 16px;
+    gap: 8px;
 }
 .description {
     font-size: 1.2em;

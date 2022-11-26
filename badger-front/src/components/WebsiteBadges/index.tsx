@@ -8,11 +8,16 @@ import styles from "./WebsiteBadges.module.css";
 interface WebsiteBadgesProps {
   report: DataReport;
   displayAvailable: boolean;
+  displayMetrics: boolean;
+  displayBadges: boolean;
 }
 
 const WebsiteBadges = (props: WebsiteBadgesProps) => {
   const { report, displayAvailable } = props;
   const badges = useMemo(() => {
+    if (!props.displayBadges){
+      return [];
+    }
     const badges = report.badges
       .filter((x) => {
         return displayAvailable ? true : x.acquired;
@@ -27,12 +32,15 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
         return (b.weight ?? 0) - (a.weight ?? 0);
       });
     return badges;
-  }, [report, displayAvailable]);
+  }, [report, displayAvailable, props.displayBadges]);
 
   const metrics = useMemo(() => {
+    if (!props.displayMetrics){
+      return [];
+    }
     const metrics = report.metrics ?? [];
     return metrics;
-  }, [report]);
+  }, [report, props.displayMetrics]);
 
   return (
     <div>

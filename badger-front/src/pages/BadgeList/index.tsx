@@ -6,11 +6,14 @@ import { useEffect, useState } from "react";
 import { getBadgesReports } from "../../api/badges";
 import WebsiteBadges from "../../components/WebsiteBadges";
 import styles from "./BadgeList.module.css";
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import ScoreIcon from '@mui/icons-material/Score';
 
 const BadgeListPage = () => {
   const [reports, setReports] = useState<DataReport[]>([]);
   const [displayAvailable, setDisplayAvailable] = useState(false);
-
+  const [displayBadges, setDisplayBadges] = useState(true);
+  const [displayMetrics, setDisplayMetrics] = useState(true);
   useEffect(() => {
     (async () => {
       const reports = await getBadgesReports();
@@ -26,12 +29,30 @@ const BadgeListPage = () => {
       <div className={styles.controls}>
         <ToggleButton
           value="check"
-          selected={displayAvailable}
+          selected={!displayAvailable}
           onChange={() => {
             setDisplayAvailable((x) => !x);
           }}
         >
           <FilterListIcon />
+        </ToggleButton>
+        <ToggleButton
+          value="badges"
+          selected={displayBadges}
+          onChange={() => {
+            setDisplayBadges((x) => !x);
+          }}
+        >
+          <MilitaryTechIcon />
+        </ToggleButton>
+        <ToggleButton
+          value="metrics"
+          selected={displayMetrics}
+          onChange={() => {
+            setDisplayMetrics((x) => !x);
+          }}
+        >
+          <ScoreIcon />
         </ToggleButton>
       </div>
       <div className={styles.badges}>
@@ -40,6 +61,8 @@ const BadgeListPage = () => {
             key={report.name}
             report={report}
             displayAvailable={displayAvailable}
+            displayBadges={displayBadges}
+            displayMetrics={displayMetrics}
           />
         ))}
       </div>
