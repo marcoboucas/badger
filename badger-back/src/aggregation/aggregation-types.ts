@@ -3,6 +3,8 @@ import {
   CodingameConnector,
   GarminConfig,
   GarminConnector,
+  KaggleConfig,
+  KaggleConnector,
   TrailheadConfig,
   TrailheadConnector,
   VelibConfig,
@@ -13,10 +15,12 @@ export type AllConfigurationsType =
   | CodingameConfig
   | GarminConfig
   | TrailheadConfig
-  | VelibConfig;
+  | VelibConfig
+  | KaggleConfig;
 
 export type AllConnectorsType =
   | CodingameConnector
   | GarminConnector
   | TrailheadConnector
-  | VelibConnector;
+  | VelibConnector
+  | KaggleConnector;

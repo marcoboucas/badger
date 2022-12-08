@@ -2,6 +2,7 @@ import { DataReport, Connector } from '@badger/common';
 import { AllConfigurationsType } from './aggregation-types';
 import {
   GarminConnector,
+  KaggleConnector,
   TrailheadConnector,
   VelibConnector,
 } from './connectors';
@@ -72,6 +73,8 @@ export class Aggregator {
         return new TrailheadConnector(config);
       case 'velib':
         return new VelibConnector(config);
+      case 'kaggle':
+        return new KaggleConnector(config);
       default:
         // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
         console.error('Unknown connector: ', JSON.stringify(config));

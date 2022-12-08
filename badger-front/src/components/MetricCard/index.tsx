@@ -31,7 +31,8 @@ function MetricCard(props: MetricCardProps) {
         {metric.name}
       </Typography>
       <Typography variant="h5" component="div">
-      {metric.value} {metric.unit ?? ""}
+        {metric.isPercent ? (<>{Math.round(metric.value * 100)} %</>) : (<>{metric.value} {metric.unit ?? ""}</>)}
+
       </Typography>
       {/* <Typography variant="body2">
         {metric.description}
