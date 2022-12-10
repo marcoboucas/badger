@@ -1,10 +1,8 @@
 import { Badge, Connector, Metric } from '@badger/common';
 import { VelibConfig } from './config';
 
-import { AxiosInstance } from 'axios';
-import { axiosInstance } from '../axios-instance';
-
 export class VelibConnector implements Connector {
+  debug: boolean;
   config: VelibConfig;
   name = 'Velib';
   website = 'https://www.velib-metropole.fr/';
@@ -12,8 +10,9 @@ export class VelibConnector implements Connector {
   private readonly allUserInfosUrl =
     'https://www.velib-metropole.fr/webapi/private/getAllInfosUser';
 
-  constructor(config: VelibConfig) {
+  constructor(config: VelibConfig, debug: boolean = false) {
     this.config = config;
+    this.debug = debug;
   }
 
   public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {

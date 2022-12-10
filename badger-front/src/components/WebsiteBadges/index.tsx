@@ -15,7 +15,7 @@ interface WebsiteBadgesProps {
 const WebsiteBadges = (props: WebsiteBadgesProps) => {
   const { report, displayAvailable } = props;
   const badges = useMemo(() => {
-    if (!props.displayBadges){
+    if (!props.displayBadges) {
       return [];
     }
     const badges = report.badges
@@ -35,7 +35,7 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
   }, [report, displayAvailable, props.displayBadges]);
 
   const metrics = useMemo(() => {
-    if (!props.displayMetrics){
+    if (!props.displayMetrics) {
       return [];
     }
     const metrics = report.metrics ?? [];
@@ -49,7 +49,7 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
           <h3 className={styles.title}>{report.name}</h3>
         </a>
         <Chip
-          label={`${report.badgesPercentage ?? 'N/A'} %`}
+          label={`${report.badgesPercentage ?? "N/A"} %`}
           variant="outlined"
           sx={{ width: "4rem" }}
         />
@@ -65,6 +65,8 @@ const WebsiteBadges = (props: WebsiteBadgesProps) => {
         {metrics.map((metric) => (
           <MetricCard key={metric.id} metric={metric} />
         ))}
+      </div>
+      <div className={styles.badges}>
         {badges.map((badge) => (
           <BadgeCard key={badge.name} badge={badge} />
         ))}

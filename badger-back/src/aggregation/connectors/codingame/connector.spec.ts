@@ -1,5 +1,6 @@
 import { User } from '@badger/common';
 import * as fs from 'fs';
+import { CONFIG_FILE } from '../../../config';
 import { CodingameConfig } from './config';
 import { CodingameConnector } from './connector';
 
@@ -7,8 +8,8 @@ describe('Codingame Connector', () => {
   let codingameConfig: CodingameConfig;
   beforeAll(() => {
     // Load dotenv
-    const userData: User = JSON.parse(
-      fs.readFileSync('./src/config.json', 'utf8'),
+    const userData: User<CodingameConfig> = JSON.parse(
+      fs.readFileSync(CONFIG_FILE, 'utf8'),
     );
     const customConfig = userData.configs.find(
       (config) => config.name === 'codingame',
@@ -21,7 +22,7 @@ describe('Codingame Connector', () => {
 
   it('should be able to request the badges', async () => {
     const connector = new CodingameConnector(codingameConfig);
-    const badges = await connector.getBadges();
-    expect(badges).toBeDefined();
+    const data = await connector.getData();
+    expect(data).toBeDefined();
   });
 });

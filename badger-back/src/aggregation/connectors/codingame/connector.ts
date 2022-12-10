@@ -15,6 +15,7 @@ interface RawCodingameBadge {
 }
 
 export class CodingameConnector implements Connector {
+  debug: boolean;
   config: CodingameConfig;
   name = 'Codingame';
   website = 'https://www.codingame.com/';
@@ -22,8 +23,9 @@ export class CodingameConnector implements Connector {
   private readonly baseUrl = 'https://www.codingame.com';
   private readonly badgesUrl = '/services/Achievement/findByCodingamerId';
 
-  constructor(config: CodingameConfig) {
+  constructor(config: CodingameConfig, debug: boolean = false) {
     this.config = config;
+    this.debug = debug;
   }
 
   private async getBadges(): Promise<Badge[]> {
