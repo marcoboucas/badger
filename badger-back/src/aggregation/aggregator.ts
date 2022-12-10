@@ -1,4 +1,4 @@
-import { DataReport, Connector } from '@badger/common';
+import { Connector, DataReport } from '@badger/common';
 import { AllConfigurationsType } from './aggregation-types';
 import {
   GarminConnector,
@@ -11,12 +11,12 @@ import { CodingameConnector } from './connectors/codingame/connector';
 export class Aggregator {
   constructor(private readonly configurations: AllConfigurationsType[]) {}
 
-  public async getData(): Promise<DataReport[]> {
+  public async getData(debug: boolean = false): Promise<DataReport[]> {
     return (
       await Promise.all(
         this.configurations.map(async (config) => {
           try {
-            return await this.getDataReportFromConfig(config);
+            return await this.getDataReportFromConfig(config, debug);
           } catch (e) {
             console.error(e);
             return null;
@@ -28,8 +28,10 @@ export class Aggregator {
 
   private async getDataReportFromConfig(
     config: AllConfigurationsType,
+    debug: boolean = false,
   ): Promise<DataReport> {
-    const connector = this.getConnector(config);
+    console.info(`Retrieving data from ${config.name}...`);
+    const connector = this.getConnector(config, debug);
     const { badges, metrics } = await connector.getData();
 
     // Points
@@ -63,18 +65,21 @@ export class Aggregator {
     };
   }
 
-  private getConnector(config: AllConfigurationsType): Connector {
+  private getConnector(
+    config: AllConfigurationsType,
+    debug: boolean = false,
+  ): Connector {
     switch (config.name) {
       case 'codingame':
-        return new CodingameConnector(config);
+        return new CodingameConnector(config, debug);
       case 'garmin':
-        return new GarminConnector(config);
+        return new GarminConnector(config, debug);
       case 'trailhead':
-        return new TrailheadConnector(config);
+        return new TrailheadConnector(config, debug);
       case 'velib':
-        return new VelibConnector(config);
+        return new VelibConnector(config, debug);
       case 'kaggle':
-        return new KaggleConnector(config);
+        return new KaggleConnector(config, debug);
       default:
         // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
         console.error('Unknown connector: ', JSON.stringify(config));

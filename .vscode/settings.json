@@ -1,7 +1,7 @@
 {
     "editor.autoIndent": "full",
     "editor.tabSize": 2,
-    "jest.autoRun": "off",
+    "jest.autoRun": "false",
     "files.exclude": {
         "node_modules": false
     }

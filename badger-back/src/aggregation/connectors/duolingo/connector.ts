@@ -5,6 +5,7 @@ import { axiosInstance } from '../axios-instance';
 import { DuolingoConfig } from './config';
 
 export class DuolingoConnector implements Connector {
+  debug: boolean;
   name = 'Duolingo';
   website = 'https://www.duolingo.com/';
 
@@ -14,8 +15,9 @@ export class DuolingoConnector implements Connector {
   requestFields =
     'fromLanguage=fr&hasPlus=0&isAgeRestricted=0&isProfilePublic=1&isSchools=0&learningLanguage=es';
 
-  constructor(config: DuolingoConfig) {
+  constructor(config: DuolingoConfig, debug: boolean = false) {
     this.config = config;
+    this.debug = debug;
   }
 
   private async getBadges(): Promise<Badge[]> {

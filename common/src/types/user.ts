@@ -1,7 +1,5 @@
-import { ConnectorConfig } from './connector-config';
-
-export interface User {
+export interface User<Config> {
   id: string;
   name: string;
-  configs: ConnectorConfig[];
+  configs: Config[];
 }

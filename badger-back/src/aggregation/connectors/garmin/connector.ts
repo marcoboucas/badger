@@ -1,5 +1,8 @@
 import { Badge, Connector, Metric } from '@badger/common';
+import { writeFileSync } from 'fs';
 import { GarminConnect } from 'garmin-connect';
+import { join } from 'path';
+import { TMP_FOLDER } from '../../../config';
 import { GarminConfig } from './config';
 
 interface RawGarminBadge {
@@ -11,27 +14,48 @@ interface RawGarminBadge {
   badgeEarnedDate: string | null;
   badgeProgressValue: number | null;
 }
+
+interface ClientInfos {
+  client: any;
+  accessToken: string;
+  displayName: string;
+}
 export class GarminConnector implements Connector {
+  debug: boolean;
   config: GarminConfig;
   name = 'Garmin';
   website = 'https://connect.garmin.com/';
 
-  constructor(config: GarminConfig) {
+  constructor(config: GarminConfig, debug: boolean = false) {
     this.config = config;
+    this.debug = debug;
   }
 
-  private async getBadges(): Promise<Badge[]> {
+  clientConnectionPromise: Promise<ClientInfos> | null = null;
+  private async getClientAndToken(): Promise<ClientInfos> {
+    if (this.clientConnectionPromise === null) {
+      this.clientConnectionPromise = this.connect();
+    }
+    return await this.clientConnectionPromise;
+  }
+
+  private async connect(): Promise<ClientInfos> {
     const client = new GarminConnect();
     await client.login(this.config.login, this.config.password);
 
     // Get access token
     const accessToken = await this.getAccessToken(client);
 
+    // Display name
+    const displayName = (await client.getUserInfo()).displayName;
+    return { client, accessToken, displayName };
+  }
+
+  private async getBadges(): Promise<Badge[]> {
+    const { client, accessToken } = await this.getClientAndToken();
+
     // Get translations
-    const descriptions = await this.getDescriptionsFromGarmin(
-      client,
-      accessToken,
-    );
+    const descriptions = await this.getBadgeDescriptionsFromGarmin(client);
 
     // get the badges
     const rawAcquiredBadges = await this.getEarnedBadgesFromGarmin(
@@ -83,6 +107,12 @@ export class GarminConnector implements Connector {
   }
 
   private async getMetrics(): Promise<Metric[]> {
+    const { client, displayName } = await this.getClientAndToken();
+    const personalRecords = await this.getPersonalRecordsFromGarmin(
+      client,
+      displayName,
+    );
+    // console.log(personalRecords);
     return [];
   }
 
@@ -91,6 +121,27 @@ export class GarminConnector implements Connector {
       badges: await this.getBadges(),
       metrics: await this.getMetrics(),
     };
+  }
+
+  private async getPersonalRecordsFromGarmin(
+    client: any,
+    displayName: string,
+  ): Promise<any> {
+    // const records = await client.get(
+    //   'https://connect.garmin.com/personalrecord-service/personalrecord/prs/' +
+    //     displayName,
+    // );
+    const records = await client.get(
+      'https://connect.garmin.com/modern/proxy/wellness-service/wellness/dailyHeartRate/',
+      { date: '2022-11-29' },
+    );
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'garmin-available-records.json'),
+        JSON.stringify(records, null, 2),
+      );
+    }
+    return records;
   }
 
   private async getAccessToken(client: any): Promise<string> {
@@ -121,6 +172,12 @@ export class GarminConnector implements Connector {
     const badges = await client.get(
       'https://connect.garmin.com/badge-service/badge/earned?_=' + timestamp,
     );
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'garmin-earned-badges.json'),
+        JSON.stringify(badges, null, 2),
+      );
+    }
     client.client.headers = previousHeaders;
     return badges;
   }
@@ -139,17 +196,30 @@ export class GarminConnector implements Connector {
     const badges = await client.get(
       'https://connect.garmin.com/badge-service/badge/available?_=' + timestamp,
     );
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'garmin-available-badges.json'),
+        JSON.stringify(badges, null, 2),
+      );
+    }
     client.client.headers = previousHeaders;
     return badges;
   }
 
-  private async getDescriptionsFromGarmin(
+  private async getBadgeDescriptionsFromGarmin(
     client: any,
-    accessToken: string,
   ): Promise<Map<string, string>> {
-    const descriptionsRaw = await client.client.get(
+    return await this.getDescriptionsFromGarmin(
+      client,
       'https://connect.garmin.com/web-translations/badges-list/badges-list_fr.properties?bust=4.61.0.18',
     );
+  }
+
+  private async getDescriptionsFromGarmin(
+    client: any,
+    url: string,
+  ): Promise<Map<string, string>> {
+    const descriptionsRaw = await client.client.get(url);
     const mapping = new Map<string, string>();
     const lines = descriptionsRaw.split('\n');
     lines.forEach((line: string) => {

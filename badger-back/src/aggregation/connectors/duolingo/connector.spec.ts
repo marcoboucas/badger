@@ -1,5 +1,6 @@
 import { User } from '@badger/common';
 import * as fs from 'fs';
+import { CONFIG_FILE } from '../../../config';
 import { DuolingoConfig } from './config';
 import { DuolingoConnector } from './connector';
 
@@ -7,8 +8,8 @@ describe('Duolingo Connector', () => {
   let config: DuolingoConfig;
   beforeAll(() => {
     // Load dotenv
-    const userData: User = JSON.parse(
-      fs.readFileSync('./src/config.json', 'utf8'),
+    const userData: User<DuolingoConfig> = JSON.parse(
+      fs.readFileSync(CONFIG_FILE, 'utf8'),
     );
     const customConfig = userData.configs.find(
       (config) => config.name === 'duolingo',
@@ -19,9 +20,9 @@ describe('Duolingo Connector', () => {
     config = customConfig as DuolingoConfig;
   });
 
-  it('should be able to request the badges', async () => {
+  it('should be able to request the data', async () => {
     const connector = new DuolingoConnector(config);
-    const badges = await connector.getBadges();
-    expect(badges).toBeDefined();
+    const data = await connector.getData();
+    expect(data).toBeDefined();
   });
 });
