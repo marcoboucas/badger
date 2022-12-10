@@ -2,17 +2,11 @@ import { Badge, Connector, Metric } from '@badger/common';
 import { CodingameConfig } from './config';
 
 import { AxiosInstance } from 'axios';
+import { writeFileSync } from 'fs';
+import { join } from 'path';
+import { TMP_FOLDER } from '../../../config';
 import { axiosInstance } from '../axios-instance';
-
-interface RawCodingameBadge {
-  id: string;
-  title: string;
-  description: string;
-  imageBinaryId: string;
-  completionTime: number;
-  progress: number;
-  weight: number;
-}
+import { CodingameStats, RawCodingameBadge } from './types';
 
 export class CodingameConnector implements Connector {
   debug: boolean;
@@ -22,6 +16,8 @@ export class CodingameConnector implements Connector {
 
   private readonly baseUrl = 'https://www.codingame.com';
   private readonly badgesUrl = '/services/Achievement/findByCodingamerId';
+  private readonly statsurl =
+    '/services/CodinGamer/findCodingamePointsStatsByHandle';
 
   constructor(config: CodingameConfig, debug: boolean = false) {
     this.config = config;
@@ -32,7 +28,18 @@ export class CodingameConnector implements Connector {
     const response = await this.getAxiosInstance().post(
       `${this.baseUrl}${this.badgesUrl}`,
       `[${this.config.userId}]`,
+      {
+        headers: {
+          'Content-Type': 'application/json;charset=UTF-8',
+        },
+      },
     );
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'codingame-badges.json'),
+        JSON.stringify(response.data, null, 2),
+      );
+    }
 
     return response.data.map((badge: RawCodingameBadge) => {
       const baseBadge = {
@@ -64,7 +71,56 @@ export class CodingameConnector implements Connector {
   }
 
   private async getMetrics(): Promise<Metric[]> {
-    return [] as Metric[];
+    const response = await this.getAxiosInstance().post(
+      `${this.baseUrl}${this.statsurl}`,
+      `[${this.config.longUserId}]`,
+      {
+        headers: {
+          authority: 'www.codingame.com',
+          accept: 'application/json, text/plain, */*',
+          'accept-language': 'en-US,en;q=0.9,fr;q=0.8,fr-FR;q=0.7,pl;q=0.6',
+          'content-type': 'application/json;charset=UTF-8',
+          origin: this.baseUrl,
+          referer: `${this.baseUrl}${this.statsurl}`,
+        },
+      },
+    );
+    const stats = response.data as CodingameStats;
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'codingame-stats.json'),
+        JSON.stringify(stats, null, 2),
+      );
+    }
+    return [
+      {
+        source: 'codingame',
+        id: 'codingame-points',
+        name: 'Codingame Points',
+        description: 'Codingame Points',
+        updateDate: new Date(),
+        value: stats.codingamerPoints,
+      },
+      {
+        source: 'codingame',
+        id: 'codingame-level',
+        name: 'Codingame Level',
+        description: 'Codingame Level',
+        updateDate: new Date(),
+        value: stats.codingamer.level,
+      },
+      {
+        source: 'codingame',
+        id: 'codingame-rank',
+        name: 'Codingame Rank (Top)',
+        description: 'Codingame Rank',
+        updateDate: new Date(),
+        isPercent: true,
+        value:
+          stats.codingamePointsRankingDto.codingamePointsRank /
+          stats.codingamePointsRankingDto.numberCodingamersGlobal,
+      },
+    ] as Metric[];
   }
 
   public async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {

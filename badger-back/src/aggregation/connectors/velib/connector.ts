@@ -34,7 +34,7 @@ export class VelibConnector implements Connector {
     return [
       {
         name: 'Km parcourus',
-        value: 58.8,
+        value: 76.94,
         unit: 'km',
         description: 'Kilomètres parcourus en vélo',
         id: 'velib-km-parcourus',
@@ -47,6 +47,14 @@ export class VelibConnector implements Connector {
         unit: 'kg',
         description: 'Kilogrammes de CO2 économisés',
         id: 'velib-co2-economise',
+        source: 'velib',
+        updateDate: new Date(),
+      },
+      {
+        name: 'Trajets réalisés',
+        value: 38,
+        description: 'Nombre de trajets réalisés',
+        id: 'velib-trajets',
         source: 'velib',
         updateDate: new Date(),
       },

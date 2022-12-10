@@ -1,5 +1,8 @@
 import { Badge, Connector, Metric } from '@badger/common';
 import { AxiosInstance } from 'axios';
+import { writeFileSync } from 'fs';
+import { join } from 'path';
+import { TMP_FOLDER } from '../../../config';
 import { axiosInstance } from '../axios-instance';
 import { KaggleConfig } from './config';
 
@@ -7,9 +10,11 @@ export class KaggleConnector implements Connector {
   config: KaggleConfig;
   name = 'Kaggle';
   website = 'https://www.kaggle.com';
+  debug: boolean;
 
-  constructor(config: KaggleConfig) {
+  constructor(config: KaggleConfig, debug: boolean = false) {
     this.config = config;
+    this.debug = debug;
   }
 
   async getData(): Promise<{ badges: Badge[]; metrics: Metric[] }> {
@@ -30,7 +35,12 @@ export class KaggleConnector implements Connector {
     );
 
     const data = JSON.parse(htmlCode);
-    console.log(data);
+    if (this.debug) {
+      writeFileSync(
+        join(TMP_FOLDER, 'kaggle-webpage.json'),
+        JSON.stringify(data, null, 2),
+      );
+    }
 
     return {
       badges: [],
